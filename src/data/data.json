@@ -1,2 +1,93 @@
 {
+  "courses": [
+    {
+      "public": true,
+      "hot": true,
+      "id": 1,
+      "name": "course_1",
+      "grade": "初一",
+      "subject": "数学",
+      "cover": "resource/couse_cover/1.png",
+      "student_count": 100,
+      "video_count": 4,
+      "desc": "你好,你吃饭了么?",
+      "reviews": [],
+      "videos": []
+    },
+    {
+      "public": true,
+      "hot": true,
+      "id": 2,
+      "name": "course_2",
+      "grade": "初一",
+      "subject": "数学",
+      "cover": "resource/course_cover/2.png",
+      "student_count": 10,
+      "video_count": 3,
+      "desc": "你好,你吃饭了么?2",
+      "reviews": [
+        {
+          "user": {
+            "id": 1,
+            "name": "张飞",
+            "avatar": "resource/user_avatar/1.png"
+          },
+          "created_at": "2016-11-11 10:10:10",
+          "rating": 5
+        }
+      ],
+      "videos": [
+        {
+          "id": 3,
+          "name": "video_1",
+          "duration": 356,
+          "view_count": 10000000,
+          "poster": "",
+          "knowledge_point": "中国民族伟大复兴"
+        },
+        {
+          "id": 4,
+          "name": "video_2",
+          "duration": 356,
+          "view_count": 10000000,
+          "poster": "",
+          "knowledge_point": "中国民族伟大复兴2"
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "name": "video_1",
+      "duration": 356,
+      "view_count": 10000000,
+      "poster": "",
+      "knowledge_point": "中国民族伟大复兴"
+    },
+    {
+      "id": 2,
+      "name": "video_2",
+      "duration": 356,
+      "view_count": 10000000,
+      "poster": "",
+      "knowledge_point": "中国民族伟大复兴2"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "image": "",
+      "index": 1,
+      "url": "home/courses/1",
+      "public": true
+    },
+    {
+      "id": 2,
+      "image": "",
+      "index": 1,
+      "url": "home/courses/2",
+      "public": false
+    }
+  ]
 }
