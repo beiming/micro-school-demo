@@ -1,6 +1,8 @@
 var webpack = require('webpack');
+var TransferWebpackPlugin = require('transfer-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var autoprefixer = require('autoprefixer');
+var path = require('path')
 
 
 module.exports = {
@@ -41,11 +43,12 @@ module.exports = {
                 comments: false
             }
 
-        })
+        }),
+        new TransferWebpackPlugin([
+                {from: './src/data/', to: './data'}
+            ], path.resolve(__dirname))
         // new webpack.NoErrorsPlugin(),
-        // new TransferWebpackPlugin([
-        //     {from: 'www'}
-        // ], path.resolve(__dirname,"src"))
+
     ],
     postcss: function () {
         return [autoprefixer];

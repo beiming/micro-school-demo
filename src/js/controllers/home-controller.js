@@ -2,11 +2,8 @@
 
 export default ['$rootScope', '$scope',
     ($rootScope, $scope) => {
-        $scope.viewName = 'HomeController'
+        $scope.viewName = 'HomeController';
+        fetch('data/data.json')
+            .then(response => response.json())
+            .then(json => console.log(json));
     }];
-
-// export default class MainController {
-//     constructor($scope) {
-//         $scope.test = 'ddd'
-//     }
-// }
