@@ -1,5 +1,6 @@
 'use strict';
 
-import './main'
-import '../css/main.scss'
-import '../icon/_condig.font.json'
+import "babel-polyfill";
+import './main';
+import '../css/main.scss';
+import '../icon/_condig.font.json';

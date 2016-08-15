@@ -96,6 +96,20 @@
           "knowledge_point": "中国民族伟大复兴2"
         }
       ]
+    },
+    {
+      "public": true,
+      "hot": true,
+      "id": 6,
+      "name": "course_6",
+      "grade": "初一",
+      "subject": "数学",
+      "cover": "resource/course_cover/1.png",
+      "student_count": 100,
+      "video_count": 4,
+      "desc": "你好,你吃饭了么?",
+      "reviews": [],
+      "videos": []
     }
   ],
   "videos": [

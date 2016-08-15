@@ -2,12 +2,12 @@
 
 var lms = angular.module('lms', []);
 
-import HomeController from './controllers/home-controller'
-import PublicCourseController from './controllers/public-course-controller'
-import OrgCourseController from './controllers/org-course-controller'
-import PublicCourseListController from './controllers/public-course-list-controller'
-import PublicVideoListController from './controllers/public-video-list-controller'
-import CourseController from './controllers/course-controller'
+import HomeController from './controllers/home-controller';
+import PublicCourseController from './controllers/public-course-controller';
+import OrgCourseController from './controllers/org-course-controller';
+import PublicCourseListController from './controllers/public-course-list-controller';
+import PublicVideoListController from './controllers/public-video-list-controller';
+import CourseController from './controllers/course-controller';
 
 angular
     .module('lms', ['ui.router'])
@@ -46,7 +46,7 @@ angular
                 templateUrl: 'partials/public-video-list.html',
                 controller: PublicVideoListController
             })
-            .state('home.course', {
+            .state('home.courses', {
                 url: '/courses/:courseId',
                 templateUrl: 'partials/course.html',
                 controller: CourseController,

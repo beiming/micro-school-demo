@@ -43,6 +43,7 @@ class Course extends BaseModel {
         }
         this.initVideos();
         this.initReviews();
+        this.video_count = this.videos.length;
     }
 
     initVideos() {
@@ -77,6 +78,7 @@ class Video extends BaseModel {
     }
 
     initProperties(json) {
+        super.initProperties(json);
         if (!this.poster) {
             this.poster = `resource/video_poster/${this.id}.png`;
         }

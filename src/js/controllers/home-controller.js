@@ -14,9 +14,9 @@ export default ['$rootScope', '$scope',
                     if (json.hasOwnProperty('courses'))
                         $scope.allCourses = json['courses'].map(json => new Course(json));
                     if (json.hasOwnProperty('videos'))
-                        $scope.allVideos = json['courses'].map(json => new Video(json));
+                        $scope.allVideos = json['videos'].map(json => new Video(json));
                     if (json.hasOwnProperty('banners'))
-                        $scope.allBanners = json['courses'].map(json => new Banner(json));
+                        $scope.allBanners = json['banners'].map(json => new Banner(json));
                 });
         };
 

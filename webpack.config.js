@@ -9,8 +9,9 @@ const TEST = true;
 config = {
     entry: {
         vendor: ['./bower_components/angular/angular.js',
-            './bower_components/angular-ui-router/release/angular-ui-router.js'],
-        main: './src/js/index.js'
+            './bower_components/angular-ui-router/release/angular-ui-router.js',
+            './bower_components/fetch/fetch.js'],
+        main: ['babel-polyfill', './src/js/index.js']
     },
     output: {
         path: './www',
@@ -33,7 +34,9 @@ config = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('./css/main.css')
+        new ExtractTextPlugin('./css/main.css'),
+        new TransferWebpackPlugin(
+            [{from: './src/data/', to: './data'}], path.resolve(__dirname)),
         // new webpack.NoErrorsPlugin(),
 
     ],
@@ -46,10 +49,6 @@ if (TEST) {
     config.devtool = 'inline-source-map';
 } else {
     config.devtool = 'eval';
-    config.plugins.push(
-        new TransferWebpackPlugin(
-            [{from: './src/data/', to: './data'}], path.resolve(__dirname))
-    );
     config.plugins.push(
         new webpack.optimize.UglifyJsPlugin({
             compress: {
