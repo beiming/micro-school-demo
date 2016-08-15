@@ -10,6 +10,7 @@ var DEFAULT_PORT = 3600;
     app.use('/partials', express.static('./www/partials'));
     app.use('/icon', express.static('./www/icon'));
     app.use('/data', express.static('./www/data'));
+    app.use('/resource', express.static('./www/resource'));
 
     app.get('/', function (req, res) {
         res.sendFile('index.html', {root: __dirname + '/www'});

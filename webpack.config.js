@@ -2,12 +2,11 @@ var webpack = require('webpack');
 var TransferWebpackPlugin = require('transfer-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var autoprefixer = require('autoprefixer');
-var path = require('path')
+var path = require('path');
 
+const TEST = true;
 
-module.exports = {
-    // devtool: 'cheap-module-eval-source-map',
-    devtool: 'eval-source-map',
+config = {
     entry: {
         vendor: ['./bower_components/angular/angular.js',
             './bower_components/angular-ui-router/release/angular-ui-router.js'],
@@ -34,7 +33,24 @@ module.exports = {
         ]
     },
     plugins: [
-        new ExtractTextPlugin('./css/main.css'),
+        new ExtractTextPlugin('./css/main.css')
+        // new webpack.NoErrorsPlugin(),
+
+    ],
+    postcss: function () {
+        return [autoprefixer];
+    }
+};
+
+if (TEST) {
+    config.devtool = 'inline-source-map';
+} else {
+    config.devtool = 'eval';
+    config.plugins.push(
+        new TransferWebpackPlugin(
+            [{from: './src/data/', to: './data'}], path.resolve(__dirname))
+    );
+    config.plugins.push(
         new webpack.optimize.UglifyJsPlugin({
             compress: {
                 warnings: false
@@ -43,14 +59,8 @@ module.exports = {
                 comments: false
             }
 
-        }),
-        new TransferWebpackPlugin([
-                {from: './src/data/', to: './data'}
-            ], path.resolve(__dirname))
-        // new webpack.NoErrorsPlugin(),
+        })
+    );
+}
 
-    ],
-    postcss: function () {
-        return [autoprefixer];
-    }
-};
+module.exports = config;

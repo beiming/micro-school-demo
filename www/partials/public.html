@@ -2,3 +2,25 @@
     <span ui-sref="home.public" class="navbar-button icon icon-public" ui-sref-active="active">公开微课</span>
     <span ui-sref="home.org" class="navbar-button  icon icon-org">校本微课</span>
 </nav>
+<div class="public" ng-cloak ng-show="inited">
+    <div class="banner">
+
+    </div>
+
+    <div class="area courses">
+        <div class="header">
+            <span class="title icon icon-course">专题课程</span>
+            <span class="button-all">全部</span>
+        </div>
+        <div class="content">
+            <div class="course" ng-repeat="course in courses">
+                <img ng-src="{{course.cover}}" alt="course.name"/>
+                <span>asdjasiodjasoidjasoidjasoijdaosijdaosijdaosijdaosijdoasjdoaisjdoiasjd</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="area videos">
+
+    </div>
+</div>

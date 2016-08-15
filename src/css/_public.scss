@@ -1,0 +1,59 @@
+.main .home .public {
+  margin-top: 50px;
+  .banner {
+    height: 140px;
+  }
+
+  .area {
+    background-color: $white-color;
+    padding: 15px 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+
+    .header {
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .title {
+
+      }
+      .button-all {
+        font-size: $property-size;
+        color: $gray-color;
+        cursor: pointer;
+        &:after {
+          content: '>';
+          margin-left: 3px;
+        }
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .course {
+        width: 114px;
+        >img {
+          width: 114px;
+          height: 63px;
+          margin-bottom: 7px;
+        }
+        >span {
+          width: 114px;
+          font-size: $property-size;
+        }
+      }
+    }
+  }
+
+  .courses {
+
+  }
+
+  .videos {
+
+  }
+}

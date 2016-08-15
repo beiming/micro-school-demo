@@ -24,18 +24,22 @@ class Course extends BaseModel {
         this.grade = '';
         this.subject = '';
         this.cover = '';
+        this.background = '';
         this.student_count = 0;
         this.video_count = 0;
         this.desc = '';
         this.reviews = [];
         this.videos = [];
-        this.initProperties(json)
+        this.initProperties(json);
     }
 
     initProperties(json) {
         super.initProperties(json);
         if (!this.cover) {
             this.cover = `${BaseModel.RESOURCE_HOST}resource/couse_cover/${this.id}.png`;
+        }
+        if (!this.background) {
+            this.background = `${BaseModel.RESOURCE_HOST}resource/couse_bg/${this.id}.png`;
         }
         this.initVideos();
         this.initReviews();
@@ -65,18 +69,18 @@ class Video extends BaseModel {
         this.view_count = 0;
         this.poster = '';
         this.knowledge_point = '';
-        this.initProperties(json)
+        this.initProperties(json);
     }
 
     set inCourse(value) {
         this.public = this.hot = !value;
     }
 
-    // initProperties() {
-    //     if(!this.poster) {
-    //         this.poster = `resource/user_avatar/${this.id}.png`;
-    //     }
-    // }
+    initProperties(json) {
+        if (!this.poster) {
+            this.poster = `resource/video_poster/${this.id}.png`;
+        }
+    }
 }
 
 class User extends BaseModel {
@@ -90,7 +94,7 @@ class User extends BaseModel {
     initProperties(json) {
         super.initProperties(json);
         if (!this.avatar) {
-            this.avatar = `${BaseModel.RESOURCE_HOST}resource/user_avatar/${this.id}.png`;
+            this.avatar = `${BaseModel.RESOURCE_HOST}resource/user_avatar/${this.id}.jpg`;
         }
 
     }
