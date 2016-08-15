@@ -1,0 +1,28 @@
+{
+  "name": "micro-school-demo",
+  "description": "a demo to show tronclass courses on wechat",
+  "main": "server.js",
+  "authors": [
+    "Peixin Liu <liupeixin@wisdomgarden.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "micro-school"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "angular": "angularjs#^1.5.8",
+    "angular-ui-router": "^0.3.1"
+    "normalize-css": "^4.2.0"
+  }
+}
