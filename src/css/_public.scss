@@ -1,3 +1,5 @@
+$item-width: 114px;
+
 .main .home .public {
   margin-top: 50px;
   .banner {
@@ -37,22 +39,20 @@
         }
       }
     }
-
     .content {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       .course, .video {
         margin-bottom: 20px;
-        width: 114px;
-
-        >img {
-          width: 114px;
+        width: $item-width;
+        > img {
+          width: $item-width;
           height: 63px;
           margin-bottom: 3px;
         }
-        >span {
-          width: 114px;
+        > span {
+          width: $item-width;
           font-size: $property-size;
           display: block;
           overflow: hidden;
@@ -65,6 +65,35 @@
           max-height: 24px;
           word-break: keep-all;
           word-wrap: break-word;
+        }
+      }
+    }
+
+    @media screen and(min-width: 375px) and(max-width: 491px){
+      .content {
+        display: block;
+        .course, .video {
+          float: left;
+          &:nth-child(3n-1) {
+            margin-left: calc((100% - 114px * 3) / 2 );
+            margin-right: calc((100% - 114px * 3) / 2 );
+          }
+        }
+      }
+    }
+
+    @media screen and(min-width: 492px) {
+      .content {
+        display: block;
+        .course, .video {
+          float: left;
+          &:nth-child(4n-2) {
+            margin-left: calc((100% - 114px * 4) / 3 );
+          }
+          &:nth-child(4n-1) {
+            margin-left: calc((100% - 114px * 4) / 3 );
+            margin-right: calc((100% - 114px * 4) / 3 );
+          }
         }
       }
     }
