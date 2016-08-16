@@ -1,0 +1,39 @@
+<div class="public" ng-cloak ng-show="inited">
+    <div class="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" ng-repeat="banner in banners">
+                    <img ng-src="{{banner.image}}"/>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <div class="area courses">
+        <div class="header">
+            <span class="title icon icon-course">专题课程</span>
+            <span class="button-all" ui-sref="home.public-course-list">全部</span>
+        </div>
+        <div class="content">
+            <div class="course" ng-repeat="course in courses" ui-sref="home.courses({courseId: course.id})">
+                <img ng-src="{{course.cover}}" alt="course.name"/>
+                <span ng-bind="course.name"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="area videos">
+        <div class="header">
+            <span class="title icon icon-knowlage">知识点精讲</span>
+            <span class="button-all" ui-sref="home.public-video-list">全部</span>
+        </div>
+        <div class="content">
+            <div class="video" ng-repeat="video in videos">
+                <img ng-src="{{video.poster}}" alt="{{video.name}}"/>
+                <span ng-bind="video.name"></span>
+            </div>
+        </div>
+    </div>
+</div>

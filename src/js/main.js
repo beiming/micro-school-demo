@@ -18,7 +18,7 @@ angular
     .controller('PublicVideoListController', PublicVideoListController)
     .controller('CourseController', CourseController)
     .config(['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) => {
-        $urlRouterProvider.otherwise('/home/public');
+        $urlRouterProvider.otherwise('/home/index/public');
         $stateProvider
             .state('home', {
                 url: '/home',
@@ -26,14 +26,19 @@ angular
                 templateUrl: 'partials/home.html',
                 controller: HomeController
             })
-            .state('home.public', {
+            .state('home.index', {
+                url: '/index',
+                templateUrl: 'partials/index.html',
+                abstract: true
+            })
+            .state('home.index.public', {
                 url: '/public',
-                templateUrl: 'partials/public.html',
+                templateUrl: 'partials/index-public.html',
                 controller: PublicCourseController
             })
-            .state('home.org', {
+            .state('home.index.org', {
                 url: '/org',
-                templateUrl: 'partials/org.html',
+                templateUrl: 'partials/index-org.html',
                 controller: OrgCourseController
             })
             .state('home.public-course-list', {
