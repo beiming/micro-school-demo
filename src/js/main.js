@@ -3,8 +3,9 @@
 var lms = angular.module('lms', []);
 
 import HomeController from './controllers/home-controller';
-import PublicCourseController from './controllers/public-course-controller';
-import OrgCourseController from './controllers/org-course-controller';
+import IndexController from './controllers/index-controller';
+import IndexPublicController from './controllers/index-public-controller';
+import IndexOrgController from './controllers/index-org-controller';
 import PublicCourseListController from './controllers/public-course-list-controller';
 import PublicVideoListController from './controllers/public-video-list-controller';
 import CourseController from './controllers/course-controller';
@@ -12,8 +13,8 @@ import CourseController from './controllers/course-controller';
 angular
     .module('lms', ['ui.router'])
     .controller('HomeController', HomeController)
-    .controller('PublicCourseController', PublicCourseController)
-    .controller('OrgCourseController', OrgCourseController)
+    .controller('IndexPublicController', IndexPublicController)
+    .controller('IndexOrgController', IndexOrgController)
     .controller('PublicCourseListController', PublicCourseListController)
     .controller('PublicVideoListController', PublicVideoListController)
     .controller('CourseController', CourseController)
@@ -29,17 +30,18 @@ angular
             .state('home.index', {
                 url: '/index',
                 templateUrl: 'partials/index.html',
-                abstract: true
+                abstract: true,
+                controller: IndexController
             })
             .state('home.index.public', {
                 url: '/public',
                 templateUrl: 'partials/index-public.html',
-                controller: PublicCourseController
+                controller: IndexPublicController
             })
             .state('home.index.org', {
                 url: '/org',
                 templateUrl: 'partials/index-org.html',
-                controller: OrgCourseController
+                controller: IndexOrgController
             })
             .state('home.public-course-list', {
                 url: '/public-course-list',

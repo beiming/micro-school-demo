@@ -25,7 +25,7 @@ export default ['$rootScope', '$scope',
                 $scope.inited = true;
                 resolve();
             }
-        }
+        };
 
 
         var init = () => {

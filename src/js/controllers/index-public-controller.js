@@ -2,7 +2,7 @@
 
 export default ['$rootScope', '$scope', '$timeout',
     ($rootScope, $scope, $timeout) => {
-        $scope.viewName = 'PublicCourseController';
+        $scope.viewName = 'IndexPublicController';
 
         var initSwaper = () => {
             new Swiper ('.swiper-container', {
@@ -12,7 +12,7 @@ export default ['$rootScope', '$scope', '$timeout',
                 // If we need pagination
                 pagination: '.swiper-pagination',
             })
-        }
+        };
 
         var init = () => {
             $scope.banners = $scope.allBanners.filter((banner) => banner.public).sort((a, b) => a.index - b.index);
