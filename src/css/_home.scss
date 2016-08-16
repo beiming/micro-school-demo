@@ -1,20 +1,31 @@
+$MAX-WIDTH: 414px;
+$MIN-WIDTH: 320px;
+
 .main {
   background-color: $main-bg-color;
   font-size: $normal-size;
   color: $main-font-color;
-
+  display: flex;
+  justify-content: center;
+  >div {
+    width: 100%;
+    max-width: $MAX-WIDTH;
+    min-width: $MIN-WIDTH;
+  }
   .home {
     .icon:before {
       margin-right: 5px;
-      font-size: 14px;
     }
     .navbar-fixed-top {
+      width: 100%;
+      max-width: $MAX-WIDTH;
+      min-width: $MIN-WIDTH;
       position: fixed;
       top: 0;
-      left: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
       z-index: 1000;
       display: flex;
-      width: 100%;
       height: 50px;
       background-color: $white-color;
 

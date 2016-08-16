@@ -4,7 +4,15 @@
 </nav>
 <div class="public" ng-cloak ng-show="inited">
     <div class="banner">
-
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide" ng-repeat="banner in banners">
+                    <img ng-src="{{banner.image}}"/>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 
     <div class="area courses">

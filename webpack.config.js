@@ -10,7 +10,9 @@ config = {
     entry: {
         vendor: ['./bower_components/angular/angular.js',
             './bower_components/angular-ui-router/release/angular-ui-router.js',
-            './bower_components/fetch/fetch.js'],
+            './bower_components/fetch/fetch.js',
+            './bower_components/Swiper/dist/js/swiper.min.js',
+            ],
         main: ['babel-polyfill', './src/js/index.js']
     },
     output: {
