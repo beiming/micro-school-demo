@@ -6,8 +6,8 @@ import HomeController from './controllers/home-controller';
 import IndexController from './controllers/index-controller';
 import IndexPublicController from './controllers/index-public-controller';
 import IndexOrgController from './controllers/index-org-controller';
-import PublicCourseListController from './controllers/public-course-list-controller';
-import PublicVideoListController from './controllers/public-video-list-controller';
+import CourseListController from './controllers/course-list-controller';
+import VideoListController from './controllers/video-list-controller';
 import CourseController from './controllers/course-controller';
 
 angular
@@ -15,8 +15,8 @@ angular
     .controller('HomeController', HomeController)
     .controller('IndexPublicController', IndexPublicController)
     .controller('IndexOrgController', IndexOrgController)
-    .controller('PublicCourseListController', PublicCourseListController)
-    .controller('PublicVideoListController', PublicVideoListController)
+    .controller('CourseListController', CourseListController)
+    .controller('VideoListController', VideoListController)
     .controller('CourseController', CourseController)
     .config(['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) => {
         $urlRouterProvider.otherwise('/home/index/public');
@@ -43,15 +43,15 @@ angular
                 templateUrl: 'partials/index-org.html',
                 controller: IndexOrgController
             })
-            .state('home.public-course-list', {
-                url: '/public-course-list',
-                templateUrl: 'partials/public-course-list.html',
-                controller: PublicCourseListController
+            .state('home.course-list', {
+                url: '/course-list',
+                templateUrl: 'partials/course-list.html',
+                controller: CourseListController
             })
-            .state('home.public-video-list', {
-                url: '/public-video-list',
-                templateUrl: 'partials/public-video-list.html',
-                controller: PublicVideoListController
+            .state('home.video-list', {
+                url: '/video-list',
+                templateUrl: 'partials/video-list.html',
+                controller: VideoListController
             })
             .state('home.courses', {
                 url: '/courses/:courseId',
