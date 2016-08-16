@@ -1,7 +1,7 @@
 'use strict';
 
-export default ['$rootScope', '$scope', '$stateParams',
-    ($rootScope, $scope, $stateParams) => {
-        $scope.viewName = 'CourseController'
+export default ['$scope', '$stateParams',
+    ($scope, $stateParams) => {
+        $scope.viewName = 'CourseController';
         console.log($stateParams)
     }];

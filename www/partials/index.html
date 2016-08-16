@@ -2,4 +2,26 @@
     <span ui-sref="home.index.public" class="navbar-button icon icon-public" ui-sref-active="active">公开微课</span>
     <span ui-sref="home.index.org" class="navbar-button  icon icon-org" ui-sref-active="active">校本微课</span>
 </nav>
+<div class="banner" ng-if="currentViewName == 'public'">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!--Slides-->
+            <div class="swiper-slide" ng-repeat="banner in banners">
+                <img ng-src="{{banner.image}}"/>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div class="banner"  ng-if="currentViewName == 'org'">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide" ng-repeat="banner in banners">
+            <img ng-src="{{banner.image}}"/>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
 <div ui-view class="index-content" ng-show="inited"></div>

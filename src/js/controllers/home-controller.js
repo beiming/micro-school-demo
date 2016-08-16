@@ -2,8 +2,8 @@
 
 import {Course, Video, Banner} from '../models/Model'
 
-export default ['$rootScope', '$scope',
-    ($rootScope, $scope) => {
+export default ['$scope',
+    ($scope) => {
         $scope.viewName = 'HomeController';
         $scope.inited = false;
 
@@ -32,7 +32,7 @@ export default ['$rootScope', '$scope',
             $scope.allCourses = [];
             $scope.allVideos = [];
             $scope.allBanners = [];
-            $scope.initPromise = new Promise((resolve, reject) => {
+            $scope.initDataPromise = new Promise((resolve, reject) => {
                 getJSONData().then(promiseResolve(resolve)).catch(promiseResolve(resolve))
             });
         };

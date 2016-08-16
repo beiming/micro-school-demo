@@ -2,5 +2,5 @@
 
 export default ['$rootScope', '$scope',
     ($rootScope, $scope) => {
-        $scope.viewName = 'PublicCourseListController'
+        $scope.viewName = 'PublicCourseListController';
     }];
