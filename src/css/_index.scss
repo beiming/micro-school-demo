@@ -1,5 +1,3 @@
-$item-width: 114px;
-
 .main .home {
   margin-top: 50px;
   .banner {
@@ -16,6 +14,7 @@ $item-width: 114px;
 }
 
 .main .home .index-content .public, .org {
+  $item-width: 114px;
   .area {
     background-color: $white-color;
     padding: 15px 10px 0 15px;

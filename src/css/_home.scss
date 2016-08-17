@@ -47,8 +47,34 @@ $MIN-WIDTH: 320px;
           border-bottom: solid 2px $green-color;
         }
       }
+
+      .navbar-button.navbar-select {
+        border: 0;
+        color: $green-color;
+        &.active{
+          border: 0;
+        }
+        >select {
+          color: $green-color;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          border: none;
+          background: none;
+          margin: 0;
+          padding: 0;
+        }
+        .icon:before {
+          margin-right: 0;
+          margin-left: 5px;
+        }
+        >label {
+          font-size: 7px;
+        }
+      }
     }
   }
 }
 
 @import "index";
+@import "course_list";

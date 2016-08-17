@@ -1,1 +1,29 @@
-{{viewName}}
+<nav class="navbar-fixed-top">
+        <div class="navbar-button navbar-select">
+            <select id="gradeSelect" ng-model="ui.selectedGrade" ng-options="grade.name for grade in ui.grades track by grade.id">
+            </select>
+            <label class="icon icon-arrow" for="gradeSelect"></label>
+        </div>
+
+        <div class="navbar-button navbar-select">
+            <select id="subjectSelect" ng-model="ui.selectedSubject" ng-options="subject.name for subject in ui.subjects track by subject.id">
+            </select>
+            <label class="icon icon-arrow" for="subjectSelect"></label>
+        </div>
+</nav>
+<div class="course-list-content">
+    <div class="area">
+        <div class="content">
+            <div class="course" ng-repeat="course in courses | filter: filterCourse">
+                <img class="cover" ng-src="{{course.cover}}"/>
+                <div class="info">
+                    <span class="name" ng-bind="course.name"></span>
+                    <div class="property">
+                        <span class="student-count">{{course.student_count}}人学习</span>
+                        <span class="video-count icon icon-video">视频: {{course.video_count}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

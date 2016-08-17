@@ -18,7 +18,6 @@ export default ['$scope', '$timeout',
         };
 
         $scope.initIndex = () => {
-            $scope.$parent.banners = $scope.allBanners.filter(banner => !banner.public).sort((a, b) => a.index - b.index);
             $scope.banners = [];
             return $scope.initDataPromise;
         };
