@@ -44,12 +44,12 @@ angular
                 controller: IndexOrgController
             })
             .state('home.course-list', {
-                url: '/course-list',
+                url: '/course-list?public',
                 templateUrl: 'partials/course-list.html',
                 controller: CourseListController
             })
             .state('home.video-list', {
-                url: '/video-list',
+                url: '/video-list?public',
                 templateUrl: 'partials/video-list.html',
                 controller: VideoListController
             })

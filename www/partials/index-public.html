@@ -2,7 +2,7 @@
     <div class="area courses">
         <div class="header">
             <span class="title icon icon-course">专题课程</span>
-            <span class="button-all" ui-sref="home.course-list({isPublic: false})">全部</span>
+            <span class="button-all" ui-sref="home.course-list({public: true})">全部</span>
         </div>
         <div class="content">
             <div class="course" ng-repeat="course in courses" ui-sref="home.courses({courseId: course.id})">

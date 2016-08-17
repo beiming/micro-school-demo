@@ -2,10 +2,29 @@
 
 import {Course, Video, Banner} from '../models/Model'
 
-export default ['$scope',
-    ($scope) => {
+export default ['$rootScope', '$scope', '$state',
+    ($rootScope, $scope, $state) => {
         $scope.viewName = 'HomeController';
         $scope.inited = false;
+        $rootScope.pageTitle = '微课';
+
+        $scope.$on('$viewContentLoaded', () => {
+            let currentStateName = $state.current.name;
+            if(currentStateName === 'home.course-list') {
+                if($state.params.public === 'true') {
+                    $rootScope.pageTitle = '专题课程';
+                }
+                else {
+                    $rootScope.pageTitle = '校本课程';
+                }
+            }
+            else if(currentStateName === 'home.video-list') {
+                $rootScope.pageTitle = '微视频';
+            }
+            else {
+                $rootScope.pageTitle = '微课';
+            }
+        });
 
         var getJSONData = () => {
             return fetch('data/data.json')
