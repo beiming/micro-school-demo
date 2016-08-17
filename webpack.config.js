@@ -4,7 +4,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var autoprefixer = require('autoprefixer');
 var path = require('path');
 
-const TEST = true;
+const TEST = false;
 
 config = {
     entry: {
@@ -50,7 +50,7 @@ config = {
 if (TEST) {
     config.devtool = 'inline-source-map';
 } else {
-    config.devtool = 'eval';
+    // config.devtool = 'eval';
     config.plugins.push(
         new webpack.optimize.UglifyJsPlugin({
             compress: {

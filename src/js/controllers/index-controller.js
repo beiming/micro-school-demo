@@ -1,9 +1,8 @@
 'use strict';
 
-export default ['$rootScope', '$scope', '$timeout', '$state',
-    ($rootScope, $scope, $timeout, $state) => {
+export default ['$scope', '$timeout',
+    ($scope, $timeout) => {
         $scope.viewName = 'IndexController';
-        $scope.currentViewName = '';
 
         var initSwaper = () => {
             new Swiper ('.swiper-container', {

@@ -1,8 +1,8 @@
 <nav class="navbar-fixed-top">
-    <span ui-sref="home.index.public" class="navbar-button icon icon-public" ui-sref-active="active">公开微课</span>
-    <span ui-sref="home.index.org" class="navbar-button  icon icon-org" ui-sref-active="active">校本微课</span>
+    <span ui-sref=".public" class="navbar-button icon icon-public" ui-sref-active="active">公开微课</span>
+    <span ui-sref=".org" class="navbar-button  icon icon-org" ui-sref-active="active">校本微课</span>
 </nav>
-<div class="banner" ng-if="currentViewName == 'public'">
+<div class="banner" ng-if="'home.index.public' | isState">
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <!--Slides-->
@@ -13,7 +13,7 @@
         <div class="swiper-pagination"></div>
     </div>
 </div>
-<div class="banner"  ng-if="currentViewName == 'org'">
+<div class="banner"  ng-if="'home.index.org' | isState">
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <!-- Slides -->

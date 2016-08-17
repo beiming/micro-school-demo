@@ -1,6 +1,6 @@
 'use strict';
 
-export default ['$rootScope', '$scope',
-    ($rootScope, $scope) => {
+export default ['$scope',
+    ($scope) => {
         $scope.viewName = 'VideoListController';
     }];

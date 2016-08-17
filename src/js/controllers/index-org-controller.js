@@ -3,7 +3,6 @@
 export default ['$scope',
     ($scope) => {
         $scope.viewName = 'IndexOrgController';
-        $scope.$parent.currentViewName = 'org';
 
         var init = () => {
             $scope.courses = $scope.allCourses.filter(course => !course.public && course.hot);
