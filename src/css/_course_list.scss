@@ -1,24 +1,33 @@
 .main .home .course-list-content {
-  $item-width: 185px;
+  $item-base-width: 185;
+  $item-base-height: 154;
+  $image-scale-rate: $item-base-width / $item-base-height;
+
     .area {
       .header {
 
       }
       .content {
+        display: block;
         .course {
+          float: left;
           background-color: $white-color;
-          width: $item-width;
-          height: 154px;
+          width: calc((100% - 5px) / 2);
+          height: calc(((100% - 5px) / 2) / 1.2);
           &:not(:last-child) {
-            margin-bottom: 2%;
+            margin-bottom: 5px;
+          }
+          &:nth-child(odd) {
+            margin-right: 5px;
           }
           .cover {
-            width: $item-width;
-            height: 101px;
+            width: 100%;
+            height: 100%;
           }
           .info {
             font-size: $property-size;
             padding: 10px;
+            height: 33px;
             .name {
               display: block;
               overflow: hidden;
@@ -43,46 +52,5 @@
           }
         }
       }
-
-      @media screen and(max-width: 374px){
-        .content {
-          display: flex;
-          flex-wrap: nowrap;
-          flex-direction: column;
-          align-items: center;
-        }
-      }
-
-      @media screen and(min-width: 375px) and(max-width: 414px){
-        .content {
-          display: flex;
-          flex-wrap: wrap;
-          flex-direction: row;
-          justify-content: space-between;
-        }
-      }
-
-      @media screen and(min-width: 415px) and(max-width: 574px){
-        .content {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-around;
-          padding: 0 3%;
-        }
-      }
-
-      @media screen and(min-width: 575px){
-        .content {
-          display: block;
-          .course {
-            float: left;
-            &:nth-child(3n-1) {
-              margin-left: calc((100% - 185px * 3) / 2);
-              margin-right: calc((100% - 185px * 3) / 2);
-            }
-          }
-        }
-      }
-
     }
 }

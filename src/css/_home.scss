@@ -1,4 +1,4 @@
-$MAX-WIDTH: 600px;//414
+$MAX-WIDTH: 414px;
 $MIN-WIDTH: 320px;
 
 .main {
@@ -50,12 +50,12 @@ $MIN-WIDTH: 320px;
 
       .navbar-button.navbar-select {
         border: 0;
-        color: $green-color;
+        color: $gray-color;
         &.active{
           border: 0;
         }
         >select {
-          color: $green-color;
+          color: $gray-color;
           -webkit-appearance: none;
           -moz-appearance: none;
           appearance: none;
