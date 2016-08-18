@@ -40,5 +40,5 @@ export default ['$scope', '$stateParams',
 
             $scope.$apply();
         };
-        $scope.initDataPromise.then(init)
+        $scope.initDataPromise.then(init);
     }];

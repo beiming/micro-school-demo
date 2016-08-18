@@ -70,6 +70,8 @@ class Video extends BaseModel {
         this.view_count = 0;
         this.poster = '';
         this.knowledge_point = '';
+        this.grade = '';
+        this.subject = '';
         this.initProperties(json);
     }
 
@@ -98,7 +100,6 @@ class User extends BaseModel {
         if (!this.avatar) {
             this.avatar = `${BaseModel.RESOURCE_HOST}resource/user_avatar/${this.id}.jpg`;
         }
-
     }
 }
 

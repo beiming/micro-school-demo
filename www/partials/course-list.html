@@ -1,11 +1,11 @@
 <nav class="navbar-fixed-top">
-        <div class="navbar-button navbar-select">
+        <div class="navbar-select">
             <select id="gradeSelect" ng-model="ui.selectedGrade" ng-options="grade.name for grade in ui.grades track by grade.id">
             </select>
             <label class="icon icon-arrow" for="gradeSelect"></label>
         </div>
 
-        <div class="navbar-button navbar-select">
+        <div class="navbar-select">
             <select id="subjectSelect" ng-model="ui.selectedSubject" ng-options="subject.name for subject in ui.subjects track by subject.id">
             </select>
             <label class="icon icon-arrow" for="subjectSelect"></label>

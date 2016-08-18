@@ -48,12 +48,12 @@ $MIN-WIDTH: 320px;
         }
       }
 
-      .navbar-button.navbar-select {
-        border: 0;
+      .navbar-select {
+        flex: 1;
+        display: flex;
         color: $gray-color;
-        &.active{
-          border: 0;
-        }
+        justify-content: center;
+        align-items: center;
         >select {
           color: $gray-color;
           -webkit-appearance: none;
@@ -63,10 +63,6 @@ $MIN-WIDTH: 320px;
           background: none;
           margin: 0;
           padding: 0;
-        }
-        .icon:before {
-          margin-right: 0;
-          margin-left: 5px;
         }
         >label {
           font-size: 7px;
