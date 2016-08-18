@@ -8,11 +8,65 @@
       "grade": "初一",
       "subject": "数学",
       "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
+      "course_bg": "",
+      "student_count": 1000000,
       "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
+      "reviews": [{
+        "user": {
+          "id": 1,
+          "name": "张三",
+          "avatar": ""
+        },
+        "created_at": "2015-01-01 12:01",
+        "rate": 5
+      }
+      ],
+      "videos": [
+        {
+          "id": 6,
+          "name": "video_6",
+          "duration": 356,
+          "view_count": 10000000,
+          "poster": "",
+          "knowledge_point": "中国民族伟大复兴2",
+          "grade": "初一",
+          "subject": "英语",
+          "url": "resource/video/1.mp4"
+        },
+        {
+          "id": 6,
+          "name": "video_6",
+          "duration": 356,
+          "view_count": 10000000,
+          "poster": "",
+          "knowledge_point": "中国民族伟大复兴2",
+          "grade": "初一",
+          "subject": "英语",
+          "url": "resource/video/1.mp4"
+        },
+        {
+          "id": 6,
+          "name": "video_6",
+          "duration": 356,
+          "view_count": 10000000,
+          "poster": "",
+          "knowledge_point": "中国民族伟大复兴2",
+          "grade": "初一",
+          "subject": "英语",
+          "url": "resource/video/1.mp4"
+        },
+        {
+          "id": 6,
+          "name": "video_6",
+          "duration": 356,
+          "view_count": 10000000,
+          "poster": "",
+          "knowledge_point": "中国民族伟大复兴2",
+          "grade": "初一",
+          "subject": "英语",
+          "url": "resource/video/1.mp4"
+        }
+      ]
     },
     {
       "public": true,
@@ -58,6 +112,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 2,
       "name": "course_2",
@@ -113,6 +168,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 7,
       "name": "course_7",
@@ -127,6 +183,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 8,
       "name": "course_8",
@@ -141,6 +198,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 9,
       "name": "course_9",
@@ -155,6 +213,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 10,
       "name": "course_10",
@@ -169,6 +228,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 11,
       "name": "course_11",
@@ -183,6 +243,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 12,
       "name": "course_12",
@@ -197,6 +258,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 13,
       "name": "course_13",
@@ -211,6 +273,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 14,
       "name": "course_14",
@@ -225,6 +288,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 15,
       "name": "course_15",
@@ -239,6 +303,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 16,
       "name": "course_16",
@@ -253,6 +318,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 17,
       "name": "course_17",
@@ -281,6 +347,7 @@
     },
     {
       "public": false,
+      "org": true,
       "hot": true,
       "id": 19,
       "name": "course_19",
@@ -317,7 +384,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴",
       "grade": "初一",
-      "subject": "数学"
+      "subject": "数学",
+      "url": "resource/video/1.mp4"
     },
     {
       "id": 2,
@@ -327,7 +395,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴2",
       "grade": "初一",
-      "subject": "英语"
+      "subject": "英语",
+      "url": "resource/video/2.mp4"
     },
     {
       "id": 3,
@@ -337,7 +406,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴",
       "grade": "初二",
-      "subject": "数学"
+      "subject": "数学",
+      "url": "resource/video/3.mp4"
     },
     {
       "id": 4,
@@ -347,7 +417,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴2",
       "grade": "初二",
-      "subject": "英语"
+      "subject": "英语",
+      "url": "resource/video/4.mp4"
     },
     {
       "id": 5,
@@ -357,7 +428,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴",
       "grade": "初一",
-      "subject": "数学"
+      "subject": "数学",
+      "url": "resource/video/5.mp4"
     },
     {
       "id": 6,
@@ -367,7 +439,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴2",
       "grade": "初一",
-      "subject": "数学"
+      "subject": "数学",
+      "url": "resource/video/6.mp4"
     },
     {
       "id": 6,
@@ -377,7 +450,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴2",
       "grade": "初二",
-      "subject": "数学"
+      "subject": "数学",
+      "url": "resource/video/7.mp4"
     },
     {
       "id": 6,
@@ -387,7 +461,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴2",
       "grade": "初二",
-      "subject": "英语"
+      "subject": "英语",
+      "url": "resource/video/8.mp4"
     },
     {
       "id": 6,
@@ -397,7 +472,8 @@
       "poster": "",
       "knowledge_point": "中国民族伟大复兴2",
       "grade": "初一",
-      "subject": "英语"
+      "subject": "英语",
+      "url": "resource/video/1.mp4"
     }
   ],
   "banners": [
@@ -405,42 +481,42 @@
       "id": 1,
       "image": "",
       "index": 2,
-      "url": "home/courses/1",
+      "url": "/#/home/courses/1",
       "public": true
     },
     {
       "id": 2,
       "image": "",
       "index": 1,
-      "url": "home/courses/1",
+      "url": "/#/home/courses/1",
       "public": true
     },
     {
       "id": 3,
       "image": "",
       "index": 3,
-      "url": "home/courses/1",
+      "url": "",
       "public": true
     },
     {
       "id": 4,
       "image": "",
       "index": 4,
-      "url": "home/courses/1",
+      "url": "/#/home/courses/1",
       "public": true
     },
     {
       "id": 5,
       "image": "",
       "index": 1,
-      "url": "home/courses/1",
+      "url": "/#/home/courses/1",
       "public": false
     },
     {
       "id": 6,
       "image": "",
       "index": 2,
-      "url": "home/courses/2",
+      "url": "/#/home/courses/2",
       "public": false
     }
   ]

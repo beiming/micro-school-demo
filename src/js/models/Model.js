@@ -84,6 +84,9 @@ class Video extends BaseModel {
         if (!this.poster) {
             this.poster = `resource/video_poster/${this.id}.png`;
         }
+        if (!this.url) {
+            this.url = `resource/video/${this.id}.mp4`;
+        }
     }
 }
 
@@ -107,7 +110,7 @@ class Review extends BaseModel {
     constructor(json) {
         super();
         this.user = null;
-        this.created_at = null;
+        this.created_at = '2017-11-01 12:12'
         this.rating = 0;
         this.initProperties(json);
     }

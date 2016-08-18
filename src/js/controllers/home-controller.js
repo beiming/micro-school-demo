@@ -2,8 +2,8 @@
 
 import {Course, Video, Banner} from '../models/Model'
 
-export default ['$rootScope', '$scope', '$state',
-    ($rootScope, $scope, $state) => {
+export default ['$rootScope', '$scope', '$state', '$location',
+    ($rootScope, $scope, $state, $location) => {
         $scope.viewName = 'HomeController';
         $scope.inited = false;
         $rootScope.pageTitle = '微课';
@@ -44,6 +44,10 @@ export default ['$rootScope', '$scope', '$state',
                 $scope.inited = true;
                 resolve();
             }
+        };
+
+        $scope.playVideo = (video) => {
+            $location.path(video.url);
         };
 
 

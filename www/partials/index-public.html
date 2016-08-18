@@ -2,12 +2,18 @@
     <div class="area courses">
         <div class="header">
             <span class="title icon icon-course">专题课程</span>
-            <span class="button-all" ui-sref="home.course-list({public: true})">全部</span>
+            <span class="button-all" ui-sref="home.course-list({public: true})">全部<span class="icon icon-arrow-right"></span></span>
         </div>
         <div class="content">
-            <div class="course" ng-repeat="course in courses" ui-sref="home.courses({courseId: course.id})">
-                <img ng-src="{{course.cover}}" alt="course.name"/>
-                <span ng-bind="course.name"></span>
+            <div class="item" ng-repeat="course in courses" ui-sref="home.courses({courseId: course.id})">
+                <img class="cover" ng-src="{{course.cover}}"/>
+                <div class="info">
+                    <span class="name" ng-bind="course.name"></span>
+                    <div class="property">
+                        <span class="left-property">{{course.student_count | formatCount}}人学习</span>
+                        <span class="right-property icon icon-video">视频: {{course.video_count}}</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -15,12 +21,18 @@
     <div class="area videos">
         <div class="header">
             <span class="title icon icon-knowlage">知识点精讲</span>
-            <span class="button-all" ui-sref="home.video-list">全部</span>
+            <span class="button-all" ui-sref="home.video-list">全部<span class="icon icon-arrow-right"></span></span>
         </div>
         <div class="content">
-            <div class="video" ng-repeat="video in videos">
-                <img ng-src="{{video.poster}}" alt="{{video.name}}"/>
-                <span ng-bind="video.name"></span>
+            <div class="item" ng-repeat="video in videos" ui-sref="home.play({videoId: video.id})">
+                <img class="cover" ng-src="{{video.poster}}"/>
+                <div class="info">
+                    <span class="name" ng-bind="video.name"></span>
+                    <div class="property">
+                        <span class="left-property">{{video.view_count | formatCount}}人观看</span>
+                        <span class="right-property">{{video.duration | formatDuration}}</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

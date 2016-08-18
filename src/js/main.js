@@ -9,9 +9,13 @@ import IndexOrgController from './controllers/index-org-controller';
 import CourseListController from './controllers/course-list-controller';
 import VideoListController from './controllers/video-list-controller';
 import CourseController from './controllers/course-controller';
+import PlayerController from './controllers/player-controller'
+import * as Filter from './filters'
 
 angular
     .module('lms', ['ui.router'])
+    .filter('formatCount', Filter.formatCount)
+    .filter('formatDuration', Filter.formatDuration)
     .controller('HomeController', HomeController)
     .controller('IndexPublicController', IndexPublicController)
     .controller('IndexOrgController', IndexOrgController)
@@ -57,6 +61,11 @@ angular
                 url: '/courses/:courseId',
                 templateUrl: 'partials/course.html',
                 controller: CourseController,
+            })
+            .state('home.play', {
+                url: '/play/:videoId',
+                templateUrl: 'partials/player.html',
+                controller: PlayerController,
             })
     }]);
 

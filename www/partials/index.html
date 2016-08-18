@@ -7,7 +7,7 @@
         <div class="swiper-wrapper">
             <!--Slides-->
             <div class="swiper-slide" ng-repeat="banner in banners">
-                <img ng-src="{{banner.image}}"/>
+                <a ng-href="{{banner.url}}"><img ng-src="{{banner.image}}"/></a>
             </div>
         </div>
         <div class="swiper-pagination"></div>
@@ -24,4 +24,4 @@
         <div class="swiper-pagination"></div>
     </div>
 </div>
-<div ui-view class="index-content" ng-show="inited"></div>
+<div ui-view class="index-content"></div>

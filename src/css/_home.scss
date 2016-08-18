@@ -33,7 +33,6 @@ $MIN-WIDTH: 320px;
         &:not(:last-of-type) {
           border-right: solid 1px $border-color;
         }
-
         font-size: $title-size;
         flex: 1;
         display: flex;
@@ -41,10 +40,11 @@ $MIN-WIDTH: 320px;
         align-items: center;
         color: $gray-color;
         cursor: pointer;
+        border-bottom: solid 2px $white-color;
 
         &.active{
           color: $green-color;
-          border-bottom: solid 2px $green-color;
+          border-bottom-color: $green-color;
         }
       }
 
@@ -72,5 +72,16 @@ $MIN-WIDTH: 320px;
   }
 }
 
+.main .home .player {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@import "item_list";
 @import "index";
 @import "course_list";
