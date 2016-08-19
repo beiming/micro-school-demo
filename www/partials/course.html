@@ -1,1 +1,6 @@
-{{viewName}}
+<div class="course-content">
+    <span ng-if="!course">无此课程</span>
+    <div class="course" ng-if="course">
+        {{course.name}}
+    </div>
+</div>

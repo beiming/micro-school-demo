@@ -3,5 +3,11 @@
 export default ['$scope', '$stateParams',
     ($scope, $stateParams) => {
         $scope.viewName = 'CourseController';
-        console.log($stateParams)
+        $stateParams.courseId = parseInt($stateParams.courseId);
+
+        var init = () => {
+            $scope.course = $scope.allCourses.find((course) => course.id === $stateParams.courseId);
+        };
+
+        $scope.initDataPromise.then(init);
     }];
