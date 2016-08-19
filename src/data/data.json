@@ -7,112 +7,50 @@
       "show_index": true,
       "hot": true,
       "speed_class": true,
-      "super_teacher": true,
-      "name": "course_1",
-      "grade": "初一",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
+      "super_teacher": false,
+      "name": "我们身边的化学",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
       "background": "",
-      "student_count": 1000000,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [{
-        "user": {
-          "id": 1,
-          "name": "张三",
-          "avatar": ""
-        },
-        "created_at": "2015-01-01 12:01",
-        "rate": 5
-      }
+      "student_count": 253635,
+      "desc": "化学与我们的生活息息相关，了解身边的化学知识，更好的了解我们身边物质的组成及变化规律。",
+      "outline": "学习身边的化学，探究人体呼入的空气和呼出的气体，更好的了解化学，了解我们的生活。提升我们的学习化学的兴趣，点燃化学的学习激情。",
+      "reviews": [
+        {
+          "user": {
+            "id": 1,
+            "name": "张三",
+            "avatar": ""
+          },
+          "created_at": "2015-08-18 12:01",
+          "rate": 5
+        }
       ],
       "videos": [
         {
-          "id": 6,
-          "name": "video_6",
-          "duration": 356,
-          "view_count": 10000000,
+          "id": 1,
+          "name": "身边的化学",
+          "duration": 150,
+          "view_count": 3673288,
           "poster": "",
-          "knowledge_point": "中国民族伟大复兴2",
-          "grade": "初一",
-          "subject": "英语",
-          "url": "resource/video/1.mp4"
+          "knowledge_point": "我们身边的化学",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
         },
         {
-          "id": 6,
-          "name": "video_6",
-          "duration": 356,
-          "view_count": 10000000,
+          "id": 2,
+          "name": "探究人体吸入的空气和呼出的气体",
+          "duration": 386,
+          "view_count": 983673,
           "poster": "",
-          "knowledge_point": "中国民族伟大复兴2",
-          "grade": "初一",
-          "subject": "英语",
-          "url": "resource/video/1.mp4"
-        },
-        {
-          "id": 6,
-          "name": "video_6",
-          "duration": 356,
-          "view_count": 10000000,
-          "poster": "",
-          "knowledge_point": "中国民族伟大复兴2",
-          "grade": "初一",
-          "subject": "英语",
-          "url": "resource/video/1.mp4"
-        },
-        {
-          "id": 6,
-          "name": "video_6",
-          "duration": 356,
-          "view_count": 10000000,
-          "poster": "",
-          "knowledge_point": "中国民族伟大复兴2",
-          "grade": "初一",
-          "subject": "英语",
-          "url": "resource/video/1.mp4"
+          "knowledge_point": "我们身边的化学",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
         }
       ]
-    },
-    {
-      "public": true,
-      "hot": true,
-      "id": 3,
-      "name": "course_3",
-      "grade": "初二",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": true,
-      "hot": true,
-      "id": 4,
-      "name": "course_4",
-      "grade": "初一",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 200,
-      "video_count": 3,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": true,
-      "hot": true,
-      "id": 5,
-      "name": "course_5",
-      "grade": "初二",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 200,
-      "video_count": 3,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
     },
     {
       "id": 2,
@@ -121,41 +59,215 @@
       "show_index": true,
       "hot": true,
       "speed_class": true,
-      "super_teacher": true,
-      "name": "course_2",
-      "grade": "初一",
-      "subject": "英语",
-      "cover": "resource/course_cover/2.png",
-      "student_count": 10,
-      "video_count": 3,
-      "desc": "你好,你吃饭了么?2",
+      "super_teacher": false,
+      "name": "空气与氧气",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
+      "background": "",
+      "student_count": 253635,
+      "desc": "我们的生活离不开空气，更离不开氧气，一起来学习吧！",
+      "outline": "空气的成分是复杂的，氧气更是人们生存必不可少的气体。探索空气的成份，研究氧气的制法，是化学学习非常重要的一个部分。",
       "reviews": [
         {
           "user": {
-            "id": 1,
-            "name": "张飞",
-            "avatar": "resource/user_avatar/1.png"
+            "id": 2,
+            "name": "李四",
+            "avatar": ""
           },
-          "created_at": "2016-11-11 10:10:10",
-          "rating": 5
+          "created_at": "2015-08-18 12:31",
+          "rate": 5
         }
       ],
       "videos": [
         {
           "id": 3,
-          "name": "video_1",
-          "duration": 356,
-          "view_count": 10000000,
+          "name": "空气的成分",
+          "duration": 167,
+          "view_count": 22732,
           "poster": "",
-          "knowledge_point": "中国民族伟大复兴"
+          "knowledge_point": "空气和氧气",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
         },
         {
           "id": 4,
-          "name": "video_2",
-          "duration": 356,
-          "view_count": 10000000,
+          "name": "分解过氧化氢制取氧气",
+          "duration": 158,
+          "view_count": 34634,
           "poster": "",
-          "knowledge_point": "中国民族伟大复兴2"
+          "knowledge_point": "空气和氧气",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": false,
+      "name": "物质的构成与物质的组成表达式",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
+      "background": "",
+      "student_count": 2467278,
+      "desc": "物质是什么构成的？物质构成的奥秘是什么？物质组成的表达式是怎么样的？一起来看看吧！",
+      "outline": "研究物质构成的奥秘和物质是什么构成的，能让我们更好的了解微观世界。学会用物质组成的表达式来表示一种物质，能让我们更加便捷的学习化学。",
+      "reviews": [
+        {
+          "user": {
+            "id": 3,
+            "name": "王五",
+            "avatar": ""
+          },
+          "created_at": "2015-08-15 12:31",
+          "rate": 5
+        }
+      ],
+      "videos": [
+        {
+          "id": 5,
+          "name": "物质构成的奥秘",
+          "duration": 58,
+          "view_count": 34343,
+          "poster": "",
+          "knowledge_point": "物质的构成与物质的组成表达式",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        },
+        {
+          "id": 6,
+          "name": "物质由微观粒子构成",
+          "duration": 132,
+          "view_count": 728826,
+          "poster": "",
+          "knowledge_point": "物质的构成与物质的组成表达式",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        },
+        {
+          "id": 7,
+          "name": "物质组成的表达式",
+          "duration": 163,
+          "view_count": 47234,
+          "poster": "",
+          "knowledge_point": "物质的构成与物质的组成表达式",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": false,
+      "name": "质量守恒定律",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
+      "background": "",
+      "student_count": 65474,
+      "desc": "质量守恒定律也称物质不灭定律。它是自然界普遍存在的基本定律之一。",
+      "outline": "在化学反应中，参加反应的各物质的质量总和等于反应后生成各物质的质量总和。这个规律就叫做质量守恒定律(Law of conservation of mass)。",
+      "reviews": [
+        {
+          "user": {
+            "id": 4,
+            "name": "马六",
+            "avatar": ""
+          },
+          "created_at": "2015-08-08 08:08",
+          "rate": 5
+        }
+      ],
+      "videos": [
+        {
+          "id": 5,
+          "name": "质量守恒定律1",
+          "duration": 102,
+          "view_count": 37386,
+          "poster": "",
+          "knowledge_point": "质量守恒定律",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        },
+        {
+          "id": 9,
+          "name": "质量守恒定律2",
+          "duration": 81,
+          "view_count": 47234,
+          "poster": "",
+          "knowledge_point": "质量守恒定律",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": false,
+      "name": "化学方程式",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
+      "background": "",
+      "student_count": 82724,
+      "desc": "用化学式（有机化学中有机物一般用结构简式）来表示物质化学反应的式子，叫做化学方程式。",
+      "outline": "化学方程式，也称为化学反应方程式，是用化学式表示化学反应的式子。化学方程式反映的是客观事实。因此书写化学方程式要遵守两个原则：一是必须以客观事实为基础；二是要遵守质量守恒定律。",
+      "reviews": [
+        {
+          "user": {
+            "id": 5,
+            "name": "小明",
+            "avatar": ""
+          },
+          "created_at": "2016-08-08 08:08",
+          "rate": 5
+        }
+      ],
+      "videos": [
+        {
+          "id": 10,
+          "name": "化学方程式",
+          "duration": 120,
+          "view_count": 44546,
+          "poster": "",
+          "knowledge_point": "化学方程式",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        },
+        {
+          "id": 11,
+          "name": "如何正确书写化学方程式",
+          "duration": 1445,
+          "view_count": 47234,
+          "poster": "",
+          "knowledge_point": "化学方程式",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
         }
       ]
     },
@@ -166,34 +278,102 @@
       "show_index": true,
       "hot": true,
       "speed_class": true,
-      "super_teacher": true,
-      "name": "course_6",
-      "grade": "初一",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
+      "super_teacher": false,
+      "name": "碳及同素异形体",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
+      "background": "",
+      "student_count": 453535,
+      "desc": "碳元素是一种常见元素，但又奇特的拥有多种存在形态。",
+      "outline": "碳是一种非金属元素，位于元素周期表的第二周期IVA族。拉丁语为Carbonium，意为“煤，木炭”。碳是一种很常见的元素，它以多种形式广泛存在于大气和地壳和生物之中。",
+      "reviews": [
+        {
+          "user": {
+            "id": 6,
+            "name": "表情姐",
+            "avatar": ""
+          },
+          "created_at": "2016-07-08 12:11",
+          "rate": 5
+        }
+      ],
+      "videos": [
+        {
+          "id": 12,
+          "name": "碳",
+          "duration": 183,
+          "view_count": 12580,
+          "poster": "",
+          "knowledge_point": "碳及同素异形体",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        },
+        {
+          "id": 13,
+          "name": "金刚石、石墨和炭",
+          "duration": 941,
+          "view_count": 83734,
+          "poster": "",
+          "knowledge_point": "碳及同素异形体",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        }
+      ]
     },
     {
       "id": 7,
       "public": true,
       "org": true,
-      "show_index": true,
-      "hot": true,
+      "show_index": false,
+      "hot": false,
       "speed_class": true,
-      "super_teacher": true,
-      "name": "course_7",
-      "grade": "初二",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
+      "super_teacher": false,
+      "name": "水",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
+      "background": "",
+      "student_count": 636463,
+      "desc": "水的生活不可缺少的部分，可你真的了解水吗？",
+      "outline": "水（化学式：H₂O）是由氢、氧两种元素组成的无机物，无毒。在常温常压下为无色无味的透明液体，被称为人类生命的源泉。水是地球上最常见的物质之一，是包括无机化合、人类在内所有生命生存的重要资源，也是生物体最重要的组成部分。水在生命演化中起到了重要作用。它是一种狭义不可再生，广义可再生资源。",
+      "reviews": [
+        {
+          "user": {
+            "id": 7,
+            "name": "宝宝",
+            "avatar": ""
+          },
+          "created_at": "2016-06-15 23:11",
+          "rate": 5
+        }
+      ],
+      "videos": [
+        {
+          "id": 14,
+          "name": "我们的水资源",
+          "duration": 151,
+          "view_count": 32782,
+          "poster": "",
+          "knowledge_point": "水",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        },
+        {
+          "id": 15,
+          "name": "水的组成",
+          "duration": 982,
+          "view_count": 83734,
+          "poster": "",
+          "knowledge_point": "水",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        }
+      ]
     },
     {
       "id": 8,
@@ -201,353 +381,131 @@
       "org": true,
       "show_index": true,
       "hot": true,
-      "speed_class": true,
+      "speed_class": false,
       "super_teacher": true,
-      "name": "course_8",
-      "grade": "初二",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "id": 9,
-      "public": true,
-      "org": true,
-      "show_index": true,
-      "hot": true,
-      "speed_class": true,
-      "super_teacher": true,
-      "name": "course_9",
-      "grade": "初二",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "id": 10,
-      "public": true,
-      "org": true,
-      "show_index": true,
-      "hot": true,
-      "speed_class": true,
-      "super_teacher": true,
-      "name": "course_10",
-      "grade": "初一",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 11,
-      "name": "course_11",
-      "grade": "初一",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 12,
-      "name": "course_12",
-      "grade": "初二",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 13,
-      "name": "course_13",
-      "grade": "初一",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 14,
-      "name": "course_14",
-      "grade": "初二",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 15,
-      "name": "course_15",
-      "grade": "初一",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 16,
-      "name": "course_16",
-      "grade": "初一",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 17,
-      "name": "course_17",
-      "grade": "初一",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": true,
-      "hot": true,
-      "id": 18,
-      "name": "course_18",
-      "grade": "初二",
-      "subject": "数学",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": false,
-      "org": true,
-      "hot": true,
-      "id": 19,
-      "name": "course_19",
-      "grade": "初二",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 100,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
-    },
-    {
-      "public": true,
-      "hot": true,
-      "id": 20,
-      "name": "course_19",
-      "grade": "初二",
-      "subject": "英语",
-      "cover": "resource/course_cover/1.png",
-      "student_count": 999,
-      "video_count": 4,
-      "desc": "你好,你吃饭了么?",
-      "reviews": [],
-      "videos": []
+      "name": "有趣的化学",
+      "grade": "初三",
+      "subject": "化学",
+      "cover": "",
+      "background": "",
+      "student_count": 476372,
+      "desc": "化学的应用无处不在，化学的趣味也无处不在！",
+      "outline": "利用化学知识解密神奇的魔术，侦破悬疑的案件，听了是不是觉得很神奇呢？",
+      "reviews": [
+        {
+          "user": {
+            "id": 8,
+            "name": "小智",
+            "avatar": ""
+          },
+          "created_at": "2016-02-26 11:11",
+          "rate": 5
+        }
+      ],
+      "videos": [
+        {
+          "id": 16,
+          "name": "揭秘刘谦魔术",
+          "duration": 458,
+          "view_count": 38462,
+          "poster": "",
+          "knowledge_point": "有趣的化学",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        },
+        {
+          "id": 17,
+          "name": "侦探历史迷案",
+          "duration": 314,
+          "view_count": 56473,
+          "poster": "",
+          "knowledge_point": "有趣的化学",
+          "grade": "初三",
+          "subject": "化学",
+          "url": ""
+        }
+      ]
     }
   ],
   "videos": [
     {
-      "show_index": true,
-      "id": 1,
-      "name": "video_1",
-      "duration": 356,
-      "view_count": 10000000,
+      "id": 18,
+      "name": "水的净化",
+      "duration": 1038,
+      "view_count": 4834384,
       "poster": "",
-      "knowledge_point": "中国民族伟大复兴",
-      "grade": "初一",
-      "subject": "数学",
+      "knowledge_point": "水",
+      "grade": "初三",
+      "subject": "化学",
       "url": "resource/video/1.mp4"
     },
     {
-      "id": 2,
-      "show_index": true,
-      "name": "video_2",
-      "duration": 356,
-      "view_count": 10000000,
+      "id": 19,
+      "name": "洗涤玻璃仪器",
+      "duration": 85,
+      "view_count": 4834384,
       "poster": "",
-      "knowledge_point": "中国民族伟大复兴2",
-      "grade": "初一",
-      "subject": "英语",
-      "url": "resource/video/2.mp4"
+      "knowledge_point": "化学实验",
+      "grade": "初三",
+      "subject": "化学",
+      "url": "resource/video/1.mp4"
     },
     {
-      "id": 3,
-      "show_index": true,
-      "name": "video_3",
-      "duration": 356,
-      "view_count": 10000000,
+      "id": 20,
+      "name": "科学探究的方法",
+      "duration": 44,
+      "view_count": 334564,
       "poster": "",
-      "knowledge_point": "中国民族伟大复兴",
-      "grade": "初二",
-      "subject": "数学",
-      "url": "resource/video/3.mp4"
+      "knowledge_point": "方法技巧",
+      "grade": "初三",
+      "subject": "化学",
+      "url": "resource/video/1.mp4"
     },
     {
-      "id": 4,
-      "show_index": true,
-      "name": "video_4",
-      "duration": 356,
-      "view_count": 10000000,
+      "id": 21,
+      "name": "元素的概念",
+      "duration": 72,
+      "view_count": 334564,
       "poster": "",
-      "knowledge_point": "中国民族伟大复兴2",
-      "grade": "初二",
-      "subject": "英语",
-      "url": "resource/video/4.mp4"
+      "knowledge_point": "物质的组成和构成",
+      "grade": "初三",
+      "subject": "化学",
+      "url": "resource/video/1.mp4"
     },
     {
-      "id": 5,
-      "show_index": true,
-      "name": "video_5",
-      "duration": 356,
-      "view_count": 10000000,
+      "id": 22,
+      "name": "二氧化碳使蜡烛火焰熄灭",
+      "duration": 27,
+      "view_count": 334564,
       "poster": "",
-      "knowledge_point": "中国民族伟大复兴",
-      "grade": "初一",
-      "subject": "数学",
-      "url": "resource/video/5.mp4"
-    },
-    {
-      "id": 6,
-      "show_index": true,
-      "name": "video_6",
-      "duration": 356,
-      "view_count": 10000000,
-      "poster": "",
-      "knowledge_point": "中国民族伟大复兴2",
-      "grade": "初一",
-      "subject": "数学",
-      "url": "resource/video/6.mp4"
-    },
-    {
-      "id": 6,
-      "show_index": true,
-      "name": "video_6",
-      "duration": 356,
-      "view_count": 10000000,
-      "poster": "",
-      "knowledge_point": "中国民族伟大复兴2",
-      "grade": "初二",
-      "subject": "数学",
-      "url": "resource/video/7.mp4"
-    },
-    {
-      "id": 6,
-      "name": "video_6",
-      "duration": 356,
-      "view_count": 10000000,
-      "poster": "",
-      "knowledge_point": "中国民族伟大复兴2",
-      "grade": "初二",
-      "subject": "英语",
-      "url": "resource/video/8.mp4"
-    },
-    {
-      "id": 6,
-      "name": "video_6",
-      "duration": 356,
-      "view_count": 10000000,
-      "poster": "",
-      "knowledge_point": "中国民族伟大复兴2",
-      "grade": "初一",
-      "subject": "英语",
+      "knowledge_point": "化学实验",
+      "grade": "初三",
+      "subject": "化学",
       "url": "resource/video/1.mp4"
     }
   ],
   "banners": [
     {
-      "id": 1,
+      "id": 8,
       "image": "",
       "index": 2,
-      "url": "/#/home/courses/1",
-      "public": true
-    },
-    {
-      "id": 2,
-      "image": "",
-      "index": 1,
-      "url": "/#/home/courses/1",
+      "url": "/#/home/courses/8",
       "public": true
     },
     {
       "id": 3,
       "image": "",
-      "index": 3,
-      "url": "",
+      "index": 2,
+      "url": "/#/home/courses/3",
       "public": true
     },
     {
-      "id": 4,
-      "image": "",
-      "index": 4,
-      "url": "/#/home/courses/1",
-      "public": true
-    },
-    {
-      "id": 5,
-      "image": "",
-      "index": 1,
-      "url": "/#/home/courses/1",
-      "public": false
-    },
-    {
-      "id": 6,
+      "id": 22,
       "image": "",
       "index": 2,
-      "url": "/#/home/courses/2",
-      "public": false
+      "url": "/#/home/play/22",
+      "public": true
     }
   ]
 }
