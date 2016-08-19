@@ -72,16 +72,8 @@ $MIN-WIDTH: 320px;
   }
 }
 
-.main .home .player {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  video {
-    width: 100%;
-    height: auto;
-  }
-}
-
 @import "item_list";
 @import "index";
 @import "course_list";
+@import "player";
+@import "course_detail";

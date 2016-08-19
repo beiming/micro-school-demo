@@ -52,8 +52,8 @@ class Course extends BaseModel {
 
     initProperties(json) {
         super.initProperties(json);
-        this.matchDeDefaultResource('cover', 'couse_cover');
-        this.matchDeDefaultResource('background', 'couse_bg');
+        this.matchDeDefaultResource('cover', 'course_cover');
+        this.matchDeDefaultResource('background', 'course_bg');
         this.initVideos();
         this.initReviews();
         this.video_count = this.videos.length;

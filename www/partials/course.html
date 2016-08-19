@@ -1,6 +1,34 @@
-<div class="course-content">
-    <span ng-if="!course">无此课程</span>
+<div class="course-detail">
+    <span class="error" ng-if="!course">无此课程</span>
     <div class="course" ng-if="course">
-        {{course.name}}
+        <div class="background" ng-style="{'background-image': 'url(' + course.background + ')'}">
+            <div class="text">
+                <div class="name">{{course.name}}</div>
+                <div class="grade-subject">
+                    <span>{{course.grade}}</span>
+                    <span>{{course.subject}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <span class="describe">本课程的教学对培养学生掌握基本的光纤通信系统结构和器件工作原理具有重要的意义。</span>
+            <div class="rate">
+                <span class="icon icon-whole-star" ng-repeat="x in [1,2,3,4,5]"></span> 8.0 分
+            </div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <span class="tab">课程目录</span>
+                <span class="tab">课程简介</span>
+                <span class="tab">课程评价</span>
+            </div>
+            <div class="videos">
+                <div class="video" ng-repeat="video in course.videos" ui-sref="home.play({videoId: video.id})">
+                    <span class="icon icon-play name">{{video.name}}</span>
+                    <spam class="duration" ng-bind="video.duration | formatDuration"></spam>
+                </div>
+
+            </div>
+        </div>
     </div>
 </div>

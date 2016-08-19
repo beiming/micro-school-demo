@@ -14,6 +14,7 @@ export default ['$scope', '$stateParams',
             if(!$scope.video) {
                 $scope.error = '没找到该视频';
             }
+            $scope.$apply();
         };
         $scope.initDataPromise.then(init);
     }];

@@ -7,6 +7,7 @@ export default ['$scope', '$stateParams',
 
         var init = () => {
             $scope.course = $scope.allCourses.find((course) => course.id === $stateParams.courseId);
+            $scope.$apply();
         };
 
         $scope.initDataPromise.then(init);
