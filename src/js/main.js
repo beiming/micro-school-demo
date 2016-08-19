@@ -48,7 +48,7 @@ angular
                 controller: IndexOrgController
             })
             .state('home.course-list', {
-                url: '/course-list?public',
+                url: '/course-list?public&org&hot&speed_class&super_teacher',
                 templateUrl: 'partials/course-list.html',
                 controller: CourseListController
             })

@@ -12,14 +12,30 @@ class BaseModel {
             }
         }
     }
+
+    matchDeDefaultResource(property, folder, extName='png') {
+        if (!this[property]) {
+            this[property] = `${BaseModel.RESOURCE_HOST}resource/${folder}/${this.id}.${extName}`;
+        }
+    }
 }
 BaseModel.RESOURCE_HOST = '';
 
 class Course extends BaseModel {
     constructor(json) {
         super();
-        this.public = true;
-        this.hot = true;
+        // 公开
+        this.public = false;
+        // 校本
+        this.org = false;
+        // 首页
+        this.show_index = false;
+        // 热门
+        this.hot = false;
+        // 倍速课堂
+        this.speed_class = false;
+        // 超级老师
+        this.super_teacher = false;
         this.name = '';
         this.grade = '';
         this.subject = '';
@@ -28,6 +44,7 @@ class Course extends BaseModel {
         this.student_count = 0;
         this.video_count = 0;
         this.desc = '';
+        this.outline = '';
         this.reviews = [];
         this.videos = [];
         this.initProperties(json);
@@ -35,12 +52,8 @@ class Course extends BaseModel {
 
     initProperties(json) {
         super.initProperties(json);
-        if (!this.cover) {
-            this.cover = `${BaseModel.RESOURCE_HOST}resource/couse_cover/${this.id}.png`;
-        }
-        if (!this.background) {
-            this.background = `${BaseModel.RESOURCE_HOST}resource/couse_bg/${this.id}.png`;
-        }
+        this.matchDeDefaultResource('cover', 'couse_cover');
+        this.matchDeDefaultResource('background', 'couse_bg');
         this.initVideos();
         this.initReviews();
         this.video_count = this.videos.length;
@@ -49,7 +62,7 @@ class Course extends BaseModel {
     initVideos() {
         this.videos = this.videos.map(json => {
             let video = new Video(json);
-            video.inCourse = true;
+            video.setInCourse();
             return video
         });
     }
@@ -64,7 +77,7 @@ class Video extends BaseModel {
     constructor(json) {
         super();
         this.public = true;
-        this.hot = true;
+        this.show_index = true;
         this.name = '';
         this.duration = 0;
         this.view_count = 0;
@@ -72,21 +85,18 @@ class Video extends BaseModel {
         this.knowledge_point = '';
         this.grade = '';
         this.subject = '';
+        this.url = '';
         this.initProperties(json);
     }
 
-    set inCourse(value) {
-        this.public = this.hot = !value;
+    setInCourse() {
+        this.public = this.show_index = false;
     }
 
     initProperties(json) {
         super.initProperties(json);
-        if (!this.poster) {
-            this.poster = `resource/video_poster/${this.id}.png`;
-        }
-        if (!this.url) {
-            this.url = `resource/video/${this.id}.mp4`;
-        }
+        this.matchDeDefaultResource('poster', 'video_poster');
+        this.matchDeDefaultResource('url', 'video', 'mp4');
     }
 }
 
@@ -100,9 +110,7 @@ class User extends BaseModel {
 
     initProperties(json) {
         super.initProperties(json);
-        if (!this.avatar) {
-            this.avatar = `${BaseModel.RESOURCE_HOST}resource/user_avatar/${this.id}.jpg`;
-        }
+        this.matchDeDefaultResource('avatar', 'user_avatar');
     }
 }
 
@@ -110,7 +118,7 @@ class Review extends BaseModel {
     constructor(json) {
         super();
         this.user = null;
-        this.created_at = '2017-11-01 12:12'
+        this.created_at = '';
         this.rating = 0;
         this.initProperties(json);
     }
@@ -129,15 +137,13 @@ class Banner extends BaseModel {
         this.image = '';
         this.index = 0;
         this.url = '';
-        this.public = true
+        this.public = false;
         this.initProperties(json);
     }
 
     initProperties(json) {
         super.initProperties(json);
-        if (!this.image) {
-            this.image = `${BaseModel.RESOURCE_HOST}resource/banner/${this.id}.png`;
-        }
+        this.matchDeDefaultResource('image', 'banner');
     }
 }
 

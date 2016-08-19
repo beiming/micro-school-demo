@@ -3,7 +3,6 @@
 export default ['$scope', '$stateParams',
     ($scope, $stateParams) => {
         $scope.viewName = 'CourseListController';
-        $stateParams.public = $stateParams.public === 'true';
 
         var getFilterTypeDict = (courses, filterType) => {
             var map = courses.reduce((dict, course)=> {
@@ -30,7 +29,15 @@ export default ['$scope', '$stateParams',
 
 
         var init = () => {
-            $scope.courses = $scope.allCourses.filter(course => course.public === $stateParams.public);
+            for(let property in $stateParams) {
+                if($stateParams[property] === undefined) {
+                    delete $stateParams[property]
+                }
+                else {
+                    $stateParams[property] = $stateParams[property].toLowerCase() === 'true';
+                }
+            }
+            $scope.courses = $scope.allCourses.filter(course => Object.keys($stateParams).reduce((result, key) => result && course[key] === $stateParams[key]), true);
             $scope.ui = {};
             $scope.ui.grades = getFilterTypeDict($scope.courses, 'grade');
             $scope.ui.subjects = getFilterTypeDict($scope.courses, 'subject');
@@ -39,6 +46,6 @@ export default ['$scope', '$stateParams',
             $scope.ui.selectedSubject = $scope.ui.subjects[0];
 
             $scope.$apply();
-        };
+        };~
         $scope.initDataPromise.then(init);
     }];

@@ -1,11 +1,49 @@
 <div class="public">
     <div class="area courses">
         <div class="header">
-            <span class="title icon icon-course">专题课程</span>
-            <span class="button-all" ui-sref="home.course-list({public: true})">全部<span class="icon icon-arrow-right"></span></span>
+            <span class="title icon icon-course">热门课程</span>
+            <span class="button-all" ui-sref="home.course-list({public: true, hot: true})">全部<span class="icon icon-arrow-right"></span></span>
         </div>
         <div class="content">
-            <div class="item" ng-repeat="course in courses" ui-sref="home.courses({courseId: course.id})">
+            <div class="item" ng-repeat="course in hotCourses" ui-sref="home.courses({courseId: course.id})">
+                <img class="cover" ng-src="{{course.cover}}"/>
+                <div class="info">
+                    <span class="name" ng-bind="course.name"></span>
+                    <div class="property">
+                        <span class="left-property">{{course.student_count | formatCount}}人学习</span>
+                        <span class="right-property icon icon-video">视频: {{course.video_count}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="area courses">
+        <div class="header">
+            <span class="title icon icon-course">超级老师</span>
+            <span class="button-all" ui-sref="home.course-list({public: true, super_teacher: true})">全部<span class="icon icon-arrow-right"></span></span>
+        </div>
+        <div class="content">
+            <div class="item" ng-repeat="course in superTeacherCourses" ui-sref="home.courses({courseId: course.id})">
+                <img class="cover" ng-src="{{course.cover}}"/>
+                <div class="info">
+                    <span class="name" ng-bind="course.name"></span>
+                    <div class="property">
+                        <span class="left-property">{{course.student_count | formatCount}}人学习</span>
+                        <span class="right-property icon icon-video">视频: {{course.video_count}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="area courses">
+        <div class="header">
+            <span class="title icon icon-course">倍速课堂</span>
+            <span class="button-all" ui-sref="home.course-list({public: true, speed_class: true})">全部<span class="icon icon-arrow-right"></span></span>
+        </div>
+        <div class="content">
+            <div class="item" ng-repeat="course in speedCourses" ui-sref="home.courses({courseId: course.id})">
                 <img class="cover" ng-src="{{course.cover}}"/>
                 <div class="info">
                     <span class="name" ng-bind="course.name"></span>

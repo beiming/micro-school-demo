@@ -1,14 +1,18 @@
 {
   "courses": [
     {
-      "public": true,
-      "hot": true,
       "id": 1,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": true,
       "name": "course_1",
       "grade": "初一",
       "subject": "数学",
       "cover": "resource/course_cover/1.png",
-      "course_bg": "",
+      "background": "",
       "student_count": 1000000,
       "desc": "你好,你吃饭了么?",
       "reviews": [{
@@ -111,10 +115,13 @@
       "videos": []
     },
     {
-      "public": false,
-      "org": true,
-      "hot": true,
       "id": 2,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": true,
       "name": "course_2",
       "grade": "初一",
       "subject": "英语",
@@ -153,9 +160,13 @@
       ]
     },
     {
-      "public": true,
-      "hot": true,
       "id": 6,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": true,
       "name": "course_6",
       "grade": "初一",
       "subject": "英语",
@@ -167,10 +178,13 @@
       "videos": []
     },
     {
-      "public": false,
-      "org": true,
-      "hot": true,
       "id": 7,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": true,
       "name": "course_7",
       "grade": "初二",
       "subject": "数学",
@@ -182,10 +196,13 @@
       "videos": []
     },
     {
-      "public": false,
-      "org": true,
-      "hot": true,
       "id": 8,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": true,
       "name": "course_8",
       "grade": "初二",
       "subject": "英语",
@@ -197,10 +214,13 @@
       "videos": []
     },
     {
-      "public": false,
-      "org": true,
-      "hot": true,
       "id": 9,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": true,
       "name": "course_9",
       "grade": "初二",
       "subject": "数学",
@@ -212,10 +232,13 @@
       "videos": []
     },
     {
-      "public": false,
-      "org": true,
-      "hot": true,
       "id": 10,
+      "public": true,
+      "org": true,
+      "show_index": true,
+      "hot": true,
+      "speed_class": true,
+      "super_teacher": true,
       "name": "course_10",
       "grade": "初一",
       "subject": "数学",
@@ -377,6 +400,7 @@
   ],
   "videos": [
     {
+      "show_index": true,
       "id": 1,
       "name": "video_1",
       "duration": 356,
@@ -389,6 +413,7 @@
     },
     {
       "id": 2,
+      "show_index": true,
       "name": "video_2",
       "duration": 356,
       "view_count": 10000000,
@@ -400,6 +425,7 @@
     },
     {
       "id": 3,
+      "show_index": true,
       "name": "video_3",
       "duration": 356,
       "view_count": 10000000,
@@ -411,6 +437,7 @@
     },
     {
       "id": 4,
+      "show_index": true,
       "name": "video_4",
       "duration": 356,
       "view_count": 10000000,
@@ -422,6 +449,7 @@
     },
     {
       "id": 5,
+      "show_index": true,
       "name": "video_5",
       "duration": 356,
       "view_count": 10000000,
@@ -433,6 +461,7 @@
     },
     {
       "id": 6,
+      "show_index": true,
       "name": "video_6",
       "duration": 356,
       "view_count": 10000000,
@@ -444,6 +473,7 @@
     },
     {
       "id": 6,
+      "show_index": true,
       "name": "video_6",
       "duration": 356,
       "view_count": 10000000,
