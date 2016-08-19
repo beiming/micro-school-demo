@@ -1,5 +1,5 @@
 <div class="public">
-    <div class="area courses">
+    <div class="area courses" ng-if="hotCourses">
         <div class="header">
             <span class="title icon icon-course">热门课程</span>
             <span class="button-all" ui-sref="home.course-list({public: true, hot: true})">全部<span class="icon icon-arrow-right"></span></span>
@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <div class="area courses">
+    <div class="area courses" ng-if="superTeacherCourses">
         <div class="header">
             <span class="title icon icon-course">超级老师</span>
             <span class="button-all" ui-sref="home.course-list({public: true, super_teacher: true})">全部<span class="icon icon-arrow-right"></span></span>
@@ -37,7 +37,7 @@
         </div>
     </div>
 
-    <div class="area courses">
+    <div class="area courses" ng-if="speedCourses">
         <div class="header">
             <span class="title icon icon-course">倍速课堂</span>
             <span class="button-all" ui-sref="home.course-list({public: true, speed_class: true})">全部<span class="icon icon-arrow-right"></span></span>
@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <div class="area videos">
+    <div class="area videos" ng-if="videos">
         <div class="header">
             <span class="title icon icon-knowlage">知识点精讲</span>
             <span class="button-all" ui-sref="home.video-list">全部<span class="icon icon-arrow-right"></span></span>
