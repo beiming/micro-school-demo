@@ -62,7 +62,7 @@
           }
         }
       }
-      .videos {
+      .tab-content {
         min-height: 100px;
         border-top: solid 1px $gray-color;
         margin-top: 2px;
@@ -91,6 +91,11 @@
             float: right;
           }
           clear: both;
+        }
+
+        .outline {
+          word-wrap: break-word;
+          overflow: hidden;
         }
       }
     }
