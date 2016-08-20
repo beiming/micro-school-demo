@@ -14,14 +14,18 @@
         <div class="information">
             <span class="describe">{{course.desc}}</span>
             <div class="rating">
-                <span class="icon" ng-repeat="starStyle in ui.starStyleArr track by $index" ng-class="starStyle"></span> {{course.showRatings}} 分
+                <span class="icon" ng-repeat="starStyle in ui.starStyleArr track by $index" ng-class="starStyle"></span>
+                {{course.showRatings}} 分
             </div>
         </div>
         <div class="content">
             <div class="header">
-                <span class="tab" ng-class="{active: ui.tabName === 'content'}" ng-click="onClickTab('content')">课程目录</span>
-                <span class="tab" ng-class="{active: ui.tabName === 'outline'}" ng-click="onClickTab('outline')">课程简介</span>
-                <span class="tab" ng-class="{active: ui.tabName === 'review'}" ng-click="onClickTab('review')">课程评价</span>
+                <span class="tab" ng-class="{active: ui.tabName === 'content'}"
+                      ng-click="onClickTab('content')">课程目录</span>
+                <span class="tab" ng-class="{active: ui.tabName === 'outline'}"
+                      ng-click="onClickTab('outline')">课程简介</span>
+                <span class="tab" ng-class="{active: ui.tabName === 'review'}"
+                      ng-click="onClickTab('review')">课程评价</span>
             </div>
             <div class="tab-content videos" ng-if="ui.tabName === 'content'">
                 <div class="video" ng-repeat="video in course.videos" ui-sref="home.play({videoId: video.id})">
@@ -37,7 +41,8 @@
                 <div class="rating-detail">
                     <div class="total-rating">
                         <div class="value">{{course.showRatings}}</div>
-                        <span class="icon" ng-repeat="starStyle in ui.starStyleArr track by $index" ng-class="starStyle"></span>
+                        <span class="icon" ng-repeat="starStyle in ui.starStyleArr track by $index"
+                              ng-class="starStyle"></span>
                     </div>
                     <div class="rating-info">
                         <div class="item" ng-repeat="i in range(5, 0, -1)">
@@ -46,15 +51,28 @@
                             </div>
                             <div class="percentage">
                                 <div class="background"></div>
-                                <div class="progress"></div>
+                                <div class="progress" ng-style="{'width': ui.reviewDetail[$index+1].percentage + '%'}"></div>
                             </div>
-                            <div class="count">1</div>
+                            <div class="count">{{ui.reviewDetail[$index+1].count}}</div>
                         </div>
                     </div>
                 </div>
-                <div class="rating-list">
-                    <div class="rating" ng-repeat="review in course.reviews">
-                        {{review.user.name}}
+                <div class="review-list">
+                    <div class="review" ng-repeat="review in course.reviews">
+                        <div class="avatar"><img ng-src="{{review.user.avatar}}"/></div>
+                        <div class="comment-container">
+                            <div class="top-info">
+                                <span class="user-name">{{review.user.name}}</span>
+                                <span class="create-time">{{review.created_at}}</span>
+
+                                <span class="star-container">
+                                    <span class="icon icon-whole-star" ng-repeat="i in range(0, review.rating)"></span>
+                                </span>
+                            </div>
+                            <div class="comment">
+                                {{review.content}}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

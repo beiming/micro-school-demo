@@ -123,6 +123,7 @@
       .outline {
         word-wrap: break-word;
         overflow: hidden;
+        color: $gray-color;
       }
 
       .reviews {
@@ -130,6 +131,7 @@
           display: block;
         }
         .rating-detail {
+          margin-top: 5px;
           display: flex;
           align-items: center;
           color: $green-color;
@@ -152,20 +154,23 @@
             }
           }
           .rating-info {
-            flex: 5;
+            flex: 6;
             position: relative;
 
             .item {
               position: relative;
+              .icon:before {
+                margin-right: 1px;
+              }
               .star {
                 width: 60px;
                 display: inline-block;
               }
               .percentage {
                 position: relative;
-                width: 49%;
+                width: 48%;
                 height: 9px;
-                margin-left: 9px;
+                margin: 0 5px 0 5px;
                 display: inline-block;
 
                 .background {
@@ -186,7 +191,6 @@
               }
 
               .count {
-                float: right;
                 display: inline-block;
                 color: $main-font-color;
               }
@@ -194,8 +198,69 @@
 
           }
         }
-        .rating-list {
-          margin-top: 45px;
+        .review-list {
+          margin-top: 15px;
+
+          .review {
+            padding-top: 15px;
+            display: flex;
+
+            &:not(:last-child) {
+              border-bottom: solid 2px $main-bg-color;
+              padding-bottom: 15px;
+            }
+
+            .avatar {
+              margin-right: 5px;
+              > img {
+                width: 30px;
+                height: 30px;
+                border-radius: 16px;
+                border: 1px solid $green-color;
+              }
+            }
+
+            .comment-container {
+              color: $gray-color;
+              width: calc(100% - 37px);
+
+              .top-info {
+                overflow: hidden;
+                > span {
+                  display: inline-block;
+                }
+                .user-name {
+                  max-width: 30%;
+                  color: $green-color;
+                  float: left;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap;
+                }
+                .create-time {
+                  margin-left: 5px;
+                  float: left;
+                }
+
+                .star-container {
+                  padding-top: 4px;
+                  font-size: 8px;
+                  width: 50px;
+                  float: right;
+                  text-align: right;
+                  .icon:before {
+                    margin-right: 1px;
+                  }
+                }
+              }
+              .comment {
+                clear: both;
+                margin-top: 10px;
+                word-wrap: break-word;
+                overflow: hidden;
+              }
+            }
+          }
         }
       }
     }

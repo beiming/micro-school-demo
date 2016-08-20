@@ -45,11 +45,30 @@ export default ['$scope', '$stateParams',
 
         };
 
+        var initReviewDetail = () => {
+            $scope.ui.reviewDetail = {};
+            $scope.range(1, 6).forEach((rating) => {
+                $scope.ui.reviewDetail[rating] = {count: 0, percentage:0};
+            });
+            $scope.course.reviews.forEach((review) => {
+                if($scope.ui.reviewDetail.hasOwnProperty(review.rating.toString())) {
+                    $scope.ui.reviewDetail[review.rating].count += 1;
+                }
+            });
+            if($scope.course.reviews.length) {
+                for(let rating in $scope.ui.reviewDetail) {
+                    let obj = $scope.ui.reviewDetail[rating];
+                    obj.percentage = Math.floor((obj.count / $scope.course.reviews.length) * 100);
+                }
+            }
+        };
+
         var init = () => {
             $scope.course = $scope.allCourses.find((course) => course.id === $stateParams.courseId);
             if($scope.course) {
                 $scope.course.calculateCourseRatings();
                 setStartStyle();
+                initReviewDetail();
             }
             $scope.$apply();
         };
