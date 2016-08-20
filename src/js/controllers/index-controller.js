@@ -12,8 +12,15 @@ export default ['$scope', '$timeout',
             });
         };
 
-        $scope.setBanners = (banners) => {
-            $scope.banners = banners.sort((a, b) => a.index - b.index);
+        $scope.setBanners = (banners, reverse=false) => {
+            $scope.banners = banners.sort((a, b) => {
+                if(reverse){
+                    return b.index - a.index;
+                }
+                else {
+                    return a.index - b.index;
+                }
+            });
             $timeout(initSwaper);
         };
 
