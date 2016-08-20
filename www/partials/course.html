@@ -2,6 +2,7 @@
     <span class="error" ng-if="!course">无此课程</span>
     <div class="course" ng-if="course">
         <div class="background" ng-style="{'background-image': 'url(' + course.background + ')'}">
+            <div class="mask"></div>
             <div class="text">
                 <div class="name">{{course.name}}</div>
                 <div class="grade-subject">
