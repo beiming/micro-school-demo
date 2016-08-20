@@ -6,7 +6,7 @@ export default ['$scope',
 
         var init = () => {
             $scope.courses = $scope.allCourses.filter(course => course.org && course.show_index).slice(0, 8);
-            $scope.setBanners($scope.allBanners.filter(banner => !banner.public));
+            $scope.setBanners($scope.allBanners.filter(banner => banner.org));
             $scope.$apply();
         };
 

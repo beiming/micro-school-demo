@@ -487,25 +487,28 @@
   ],
   "banners": [
     {
-      "id": 8,
+      "id": 1,
+      "image": "",
+      "index": 1,
+      "url": "/#/home/courses/1",
+      "public": true,
+      "org": true
+    },
+    {
+      "id": 2,
       "image": "",
       "index": 2,
-      "url": "/#/home/courses/8",
-      "public": true
+      "url": "/#/home/courses/2",
+      "public": true,
+      "org": true
     },
     {
       "id": 3,
       "image": "",
-      "index": 2,
-      "url": "/#/home/courses/3",
-      "public": true
-    },
-    {
-      "id": 22,
-      "image": "",
-      "index": 2,
-      "url": "/#/home/play/22",
-      "public": true
+      "index": 3,
+      "url": "/#/home/play/3",
+      "public": true,
+      "org": true
     }
   ]
 }

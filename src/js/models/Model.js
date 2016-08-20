@@ -138,6 +138,7 @@ class Banner extends BaseModel {
         this.index = 0;
         this.url = '';
         this.public = false;
+        this.org = false;
         this.initProperties(json);
     }
 
