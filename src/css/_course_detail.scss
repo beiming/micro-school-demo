@@ -47,6 +47,14 @@
         display: block;
         color: $gray-color;
         margin-bottom: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        line-height: 15px;
+        max-height: 45px;
       }
       .rate {
         color: $green-color;
