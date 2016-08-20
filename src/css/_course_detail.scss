@@ -11,9 +11,14 @@
         position: absolute;
         left: 10px;
         bottom: 20px;
+        width: 100%;
         .name {
           color: $white-color;
           font-size: 22px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          width: 80%;
         }
 
         .grade-subject {
@@ -85,6 +90,7 @@
             width: 80%;
             overflow: hidden;
             text-overflow: ellipsis;
+            white-space: nowrap;
           }
           .duration {
             font-size: $property-size;
