@@ -22,6 +22,12 @@ angular
     .controller('CourseListController', CourseListController)
     .controller('VideoListController', VideoListController)
     .controller('CourseController', CourseController)
+    .config(['$sceDelegateProvider', ($sceDelegateProvider) => {
+        $sceDelegateProvider.resourceUrlWhitelist([
+            'self',
+            'http://oc3tytxf2.bkt.clouddn.com/**'
+        ]);
+    }])
     .config(['$stateProvider', '$urlRouterProvider', ($stateProvider, $urlRouterProvider) => {
         $urlRouterProvider.otherwise('/home/index/public');
         $stateProvider
