@@ -51,9 +51,9 @@
                             </div>
                             <div class="percentage">
                                 <div class="background"></div>
-                                <div class="progress" ng-style="{'width': ui.reviewDetail[$index+1].percentage + '%'}"></div>
+                                <div class="progress" ng-style="{'width': ui.reviewDetail[5-$index].percentage + '%'}"></div>
                             </div>
-                            <div class="count">{{ui.reviewDetail[$index+1].count}}</div>
+                            <div class="count">{{ui.reviewDetail[5-$index].count}}</div>
                         </div>
                     </div>
                 </div>

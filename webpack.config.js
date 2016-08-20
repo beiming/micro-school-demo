@@ -4,7 +4,7 @@ var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var autoprefixer = require('autoprefixer');
 var path = require('path');
 
-const TEST = true;
+const TEST = false;
 
 config = {
     entry: {
