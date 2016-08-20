@@ -3,7 +3,6 @@
 export default ['$scope', '$stateParams',
     ($scope, $stateParams) => {
         $scope.viewName = 'PlayerController';
-        console.log($stateParams);
 
         var init = () => {
             $scope.video = $scope.allVideos.find(v => v.id === parseInt($stateParams.videoId));
@@ -12,7 +11,6 @@ export default ['$scope', '$stateParams',
                     for (let course of $scope.allCourses) {
                         for (let video of course.videos) {
                             if (video.id === parseInt($stateParams.videoId)) {
-                                console.log(video)
                                 return video;
                             }
                         }

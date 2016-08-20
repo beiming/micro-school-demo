@@ -15,11 +15,12 @@ class BaseModel {
 
     matchDeDefaultResource(property, folder, extName='png') {
         if (!this[property]) {
-            this[property] = `${BaseModel.RESOURCE_HOST}resource/${folder}/${this.id}.${extName}`;
+            this[property] = `${BaseModel.RESOURCE_HOST}resource/${folder}/${this.id}.${extName}?v=${BaseModel.VERSION_NUMBER}`;
         }
     }
 }
 BaseModel.RESOURCE_HOST = '';
+BaseModel.VERSION_NUMBER = '';
 
 class Course extends BaseModel {
     constructor(json) {
@@ -159,4 +160,4 @@ class Banner extends BaseModel {
 }
 
 
-export {Course, Video, Banner, User, Review}
+export {Course, Video, Banner, User, Review, BaseModel}
