@@ -13,8 +13,8 @@
         </div>
         <div class="information">
             <span class="describe">{{course.desc}}</span>
-            <div class="rate">
-                <span class="icon icon-whole-star" ng-repeat="x in [1,2,3,4,5]"></span> 8.0 分
+            <div class="rating">
+                <span class="icon" ng-repeat="starStyle in ui.starStyleArr track by $index" ng-class="starStyle"></span> {{course.showRatings}} 分
             </div>
         </div>
         <div class="content">
@@ -33,7 +33,30 @@
                 {{course.outline}}
             </div>
             <div class="tab-content reviews" ng-if="ui.tabName === 'review'">
-                {{course.reviews}}
+                <div class="title">用户评分</div>
+                <div class="rating-detail">
+                    <div class="total-rating">
+                        <div class="value">{{course.showRatings}}</div>
+                        <span class="icon" ng-repeat="starStyle in ui.starStyleArr track by $index" ng-class="starStyle"></span>
+                    </div>
+                    <div class="rating-info">
+                        <div class="item" ng-repeat="i in range(5, 0, -1)">
+                            <div class="star">
+                                <span class="icon icon-empty-star" ng-repeat="j in range(0, 5-$index)"></span>
+                            </div>
+                            <div class="percentage">
+                                <div class="background"></div>
+                                <div class="progress"></div>
+                            </div>
+                            <div class="count">1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-list">
+                    <div class="rating" ng-repeat="review in course.reviews">
+                        {{review.user.name}}
+                    </div>
+                </div>
             </div>
         </div>
     </div>

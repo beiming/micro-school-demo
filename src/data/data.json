@@ -20,11 +20,22 @@
         {
           "user": {
             "id": 1,
-            "name": "张三",
+            "name": "张小文",
             "avatar": ""
           },
-          "created_at": "2015-08-18 12:01",
-          "rate": 5
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "content": "老师讲的很好。"
+        },
+        {
+          "user": {
+            "id": 2,
+            "name": "李中天",
+            "avatar": ""
+          },
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "content": "老师的讲解很有趣，我很快就明白了，主要是在情境中明白了化学的重要性。"
         }
       ],
       "videos": [
@@ -71,12 +82,13 @@
       "reviews": [
         {
           "user": {
-            "id": 2,
-            "name": "李四",
+            "id": 3,
+            "name": "李佳佳",
             "avatar": ""
           },
           "created_at": "2015-08-18 12:31",
-          "rate": 5
+          "rating": 4,
+          "content": "氧气的制造过程其实也不难，只要了解各种气体的产生条件，就很容易掌握了。"
         }
       ],
       "videos": [
@@ -123,12 +135,23 @@
       "reviews": [
         {
           "user": {
-            "id": 3,
-            "name": "王五",
+            "id": 1,
+            "name": "张小文",
             "avatar": ""
           },
-          "created_at": "2015-08-15 12:31",
-          "rate": 5
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "content": "微观物质真的很神奇，老师的讲解很快把我带到了一个神奇的世界，再多学几门课，很快便能掌握物质的构成。"
+        },
+        {
+          "user": {
+            "id": 3,
+            "name": "李中天",
+            "avatar": ""
+          },
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "content": "物质的构成与我们的生活息息相关，了解身边的物质构成知识，更好的了解我们身边物质的组成及变化规律。"
         }
       ],
       "videos": [
@@ -186,12 +209,13 @@
       "reviews": [
         {
           "user": {
-            "id": 4,
+            "id": 2,
             "name": "马六",
             "avatar": ""
           },
-          "created_at": "2015-08-08 08:08",
-          "rate": 5
+          "created_at": "2016-08-08 08:08",
+          "rating": 5,
+          "content": "老师主要用了例子来讲解质量守恒，这样就容易明白多了，谢谢老师。"
         }
       ],
       "videos": [
@@ -238,12 +262,23 @@
       "reviews": [
         {
           "user": {
-            "id": 5,
-            "name": "小明",
+            "id": 2,
+            "name": "张小文",
             "avatar": ""
           },
-          "created_at": "2016-08-08 08:08",
-          "rate": 5
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "content": "老师讲的很好，化学式不再是枯燥的东西了，而是一个个神奇的符号。"
+        },
+        {
+          "user": {
+            "id": 3,
+            "name": "李中天",
+            "avatar": ""
+          },
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "content": "化学与我们的生活息息相关，了解身边的化学知识，有助于更好的了解我们身边物质的组成及变化规律。"
         }
       ],
       "videos": [
@@ -290,12 +325,13 @@
       "reviews": [
         {
           "user": {
-            "id": 6,
-            "name": "表情姐",
+            "id": 1,
+            "name": "李佳佳",
             "avatar": ""
           },
           "created_at": "2016-07-08 12:11",
-          "rate": 5
+          "rating": 5,
+          "content": "身边的各种物质都是碳构成的，而且通过老师的讲解，发现它们的形态是如此奇特，大家一起来听听吧。"
         }
       ],
       "videos": [
@@ -342,12 +378,23 @@
       "reviews": [
         {
           "user": {
-            "id": 7,
-            "name": "宝宝",
+            "id": 3,
+            "name": "张文",
             "avatar": ""
           },
-          "created_at": "2016-06-15 23:11",
-          "rate": 5
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "content": "水真的是生命的基础。"
+        },
+        {
+          "user": {
+            "id": 2,
+            "name": "李天",
+            "avatar": ""
+          },
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "content": "水在生活中太重要了，老师的例子讲解很好，让人很容易明白。"
         }
       ],
       "videos": [
@@ -394,12 +441,13 @@
       "reviews": [
         {
           "user": {
-            "id": 8,
-            "name": "小智",
+            "id": 3,
+            "name": "张小智",
             "avatar": ""
           },
           "created_at": "2016-02-26 11:11",
-          "rate": 5
+          "rating": 5,
+          "content": "原来魔术都是利用了化学知识，有些地方还都是平常生活中常见的，真的是太神奇了。"
         }
       ],
       "videos": [
@@ -490,7 +538,7 @@
       "id": 1,
       "image": "",
       "index": 1,
-      "url": "/#/home/courses/1",
+      "url": "/#/home/courses/3",
       "public": true,
       "org": true
     },
@@ -498,7 +546,7 @@
       "id": 2,
       "image": "",
       "index": 2,
-      "url": "/#/home/courses/2",
+      "url": "/#/home/course-list?public=true&speed_class=true",
       "public": true,
       "org": true
     },

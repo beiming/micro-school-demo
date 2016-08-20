@@ -47,6 +47,8 @@ class Course extends BaseModel {
         this.outline = '';
         this.reviews = [];
         this.videos = [];
+        this.sumRatings = 0;
+        this.showRatings = 0.0;
         this.initProperties(json);
     }
 
@@ -69,6 +71,13 @@ class Course extends BaseModel {
 
     initReviews() {
         this.reviews = this.reviews.map(json => new Review(json));
+    }
+
+    calculateCourseRatings() {
+        if(this.reviews.length) {
+            this.sumRatings = this.reviews.reduce((sunResult, review) => sunResult + review.rating, 0);
+            this.showRatings = (this.sumRatings * 2 / this.reviews.length).toFixed(1);
+        }
     }
 
 }
@@ -120,6 +129,7 @@ class Review extends BaseModel {
         this.user = null;
         this.created_at = '';
         this.rating = 0;
+        this.content = '';
         this.initProperties(json);
     }
 
