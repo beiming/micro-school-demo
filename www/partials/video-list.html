@@ -19,7 +19,7 @@
             {{knowledgePoint}}
         </div>
         <div class="content">
-            <div class="item" ng-repeat="video in videos">
+            <div class="item" ng-repeat="video in videos" ui-sref="home.play({videoId: video.id})">
                 <img class="cover" ng-src="{{video.poster}}"/>
                 <div class="info">
                     <span class="name" ng-bind="video.name"></span>

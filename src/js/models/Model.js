@@ -17,6 +17,9 @@ class BaseModel {
         if (!this[property]) {
             this[property] = `${BaseModel.RESOURCE_HOST}resource/${folder}/${this.id}.${extName}?v=${BaseModel.VERSION_NUMBER}`;
         }
+        else {
+            this[property] = `${BaseModel.RESOURCE_HOST}${this[property]}?v=${BaseModel.VERSION_NUMBER}`;
+        }
     }
 }
 BaseModel.RESOURCE_HOST = '';
