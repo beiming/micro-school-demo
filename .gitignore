@@ -4,5 +4,3 @@
 bower_components/
 node_modules/
 www/*
-!www/partials/
-!www/index.html

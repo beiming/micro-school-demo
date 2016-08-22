@@ -37,8 +37,8 @@ config = {
     },
     plugins: [
         new ExtractTextPlugin('./css/main.css'),
-        new TransferWebpackPlugin(
-            [{from: './src/data/', to: './data'}], path.resolve(__dirname)),
+        // new TransferWebpackPlugin(
+        //     [{from: './src/data/', to: './data'}], path.resolve(__dirname)),
         // new webpack.NoErrorsPlugin(),
 
     ],
