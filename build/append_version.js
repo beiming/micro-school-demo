@@ -36,10 +36,10 @@ function processCss() {
     let sourcePath = getFilePath('../www/css/main.css');
     let fileContent = fs.readFileSync(sourcePath, 'utf8');
 
-    fileContent = fileContent.replace(eotReg, 'url("../icon/icons.eot?#iefix&v=' + version + '")');
+    fileContent = fileContent.replace(eotReg, 'url("../icon/icons.eot?v=' + version + '#iefix")');
     fileContent = fileContent.replace(woffReg, 'url("../icon/icons.woff?v=' + version + '")');
     fileContent = fileContent.replace(ttfReg, 'url("../icon/icons.ttf?v=' + version + '")');
-    fileContent = fileContent.replace(svgReg, 'url("../icon/icons.svg#icons' + version + '")');
+    fileContent = fileContent.replace(svgReg, 'url("../icon/icons.svg?v=' + version + '#icons")');
 
     fs.writeFileSync(sourcePath, fileContent, 'utf8');
 
