@@ -28,7 +28,7 @@ export default ['$rootScope', '$scope', '$state', '$location',
 
         var getConfigData = () => {
             return new Promise((resolve, reject) => {
-                fetch(`http://oc3tytxf2.bkt.clouddn.com/data/config.json?v=${Math.random()}`)
+                fetch(`data/config.json?v=${Math.random()}`)
                     .then(response => response.json())
                     .then(json => {
                         if(!json.error) {
@@ -50,7 +50,7 @@ export default ['$rootScope', '$scope', '$state', '$location',
             BaseModel.RESOURCE_HOST = $rootScope.config.host;
             BaseModel.VERSION_NUMBER = $rootScope.config.version;
 
-            return fetch(`${$rootScope.config.host}data/data.json?v=${$rootScope.config.version}`)
+            return fetch(`data/data.json?v=${$rootScope.config.version}`)
                 .then(response => response.json())
                 .then(json => {
                     if(!json.error) {
