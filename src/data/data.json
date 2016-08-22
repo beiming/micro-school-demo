@@ -1,1 +1,562 @@
-{"banners":[{"id":1,"image":"","index":1,"org":true,"public":true,"url":"#/home/courses/3"},{"id":2,"image":"","index":2,"org":true,"public":true,"url":"#/home/course-list?public=true&speed_class=true"},{"id":3,"image":"","index":3,"org":true,"public":true,"url":"#/home/play/3"}],"courses":[{"background":"","cover":"","desc":"化学与我们的生活息息相关，了解身边的化学知识，更好的了解我们身边物质的组成及变化规律。","grade":"初三","hot":true,"id":1,"name":"我们身边的化学","org":true,"outline":"学习身边的化学，探究人体呼入的空气和呼出的气体，更好的了解化学，了解我们的生活。提升我们的学习化学的兴趣，点燃化学的学习激情。","public":true,"reviews":[{"content":"老师讲的很好。","created_at":"2016-08-18 12:01","rating":5,"user":{"avatar":"","id":1,"name":"张小文"}},{"content":"老师的讲解很有趣，我很快就明白了，主要是在情境中明白了化学的重要性。","created_at":"2016-06-11 09:30","rating":4,"user":{"avatar":"","id":2,"name":"李中天"}}],"show_index":true,"speed_class":true,"student_count":253635,"subject":"化学","super_teacher":false,"videos":[{"duration":150,"grade":"初三","id":1,"knowledge_point":"我们身边的化学","name":"身边的化学","poster":"","subject":"化学","url":"","view_count":3673288},{"duration":386,"grade":"初三","id":2,"knowledge_point":"我们身边的化学","name":"探究人体吸入的空气和呼出的气体","poster":"","subject":"化学","url":"","view_count":983673}]},{"background":"","cover":"","desc":"我们的生活离不开空气，更离不开氧气，一起来学习吧！","grade":"初三","hot":true,"id":2,"name":"空气与氧气","org":true,"outline":"空气的成分是复杂的，氧气更是人们生存必不可少的气体。探索空气的成份，研究氧气的制法，是化学学习非常重要的一个部分。","public":true,"reviews":[{"content":"氧气的制造过程其实也不难，只要了解各种气体的产生条件，就很容易掌握了。","created_at":"2015-08-18 12:31","rating":4,"user":{"avatar":"","id":3,"name":"李佳佳"}}],"show_index":true,"speed_class":true,"student_count":253635,"subject":"化学","super_teacher":false,"videos":[{"duration":167,"grade":"初三","id":3,"knowledge_point":"空气和氧气","name":"空气的成分","poster":"","subject":"化学","url":"","view_count":22732},{"duration":158,"grade":"初三","id":4,"knowledge_point":"空气和氧气","name":"分解过氧化氢制取氧气","poster":"","subject":"化学","url":"","view_count":34634}]},{"background":"","cover":"","desc":"物质是什么构成的？物质构成的奥秘是什么？物质组成的表达式是怎么样的？一起来看看吧！","grade":"初三","hot":true,"id":3,"name":"物质的构成与物质的组成表达式","org":true,"outline":"研究物质构成的奥秘和物质是什么构成的，能让我们更好的了解微观世界。学会用物质组成的表达式来表示一种物质，能让我们更加便捷的学习化学。","public":true,"reviews":[{"content":"微观物质真的很神奇，老师的讲解很快把我带到了一个神奇的世界，再多学几门课，很快便能掌握物质的构成。","created_at":"2016-08-18 12:01","rating":5,"user":{"avatar":"","id":1,"name":"张小文"}},{"content":"物质的构成与我们的生活息息相关，了解身边的物质构成知识，更好的了解我们身边物质的组成及变化规律。","created_at":"2016-06-11 09:30","rating":4,"user":{"avatar":"","id":3,"name":"李中天"}}],"show_index":true,"speed_class":true,"student_count":2467278,"subject":"化学","super_teacher":false,"videos":[{"duration":58,"grade":"初三","id":5,"knowledge_point":"物质的构成与物质的组成表达式","name":"物质构成的奥秘","poster":"","subject":"化学","url":"","view_count":34343},{"duration":132,"grade":"初三","id":6,"knowledge_point":"物质的构成与物质的组成表达式","name":"物质由微观粒子构成","poster":"","subject":"化学","url":"","view_count":728826},{"duration":163,"grade":"初三","id":7,"knowledge_point":"物质的构成与物质的组成表达式","name":"物质组成的表达式","poster":"","subject":"化学","url":"","view_count":47234}]},{"background":"","cover":"","desc":"质量守恒定律也称物质不灭定律。它是自然界普遍存在的基本定律之一。","grade":"初三","hot":true,"id":4,"name":"质量守恒定律","org":true,"outline":"在化学反应中，参加反应的各物质的质量总和等于反应后生成各物质的质量总和。这个规律就叫做质量守恒定律(Law of conservation of mass)。","public":true,"reviews":[{"content":"老师主要用了例子来讲解质量守恒，这样就容易明白多了，谢谢老师。","created_at":"2016-08-08 08:08","rating":5,"user":{"avatar":"","id":2,"name":"马六"}}],"show_index":true,"speed_class":true,"student_count":65474,"subject":"化学","super_teacher":false,"videos":[{"duration":102,"grade":"初三","id":5,"knowledge_point":"质量守恒定律","name":"质量守恒定律1","poster":"","subject":"化学","url":"","view_count":37386},{"duration":81,"grade":"初三","id":9,"knowledge_point":"质量守恒定律","name":"质量守恒定律2","poster":"","subject":"化学","url":"","view_count":47234}]},{"background":"","cover":"","desc":"用化学式（有机化学中有机物一般用结构简式）来表示物质化学反应的式子，叫做化学方程式。","grade":"初三","hot":true,"id":5,"name":"化学方程式","org":true,"outline":"化学方程式，也称为化学反应方程式，是用化学式表示化学反应的式子。化学方程式反映的是客观事实。因此书写化学方程式要遵守两个原则：一是必须以客观事实为基础；二是要遵守质量守恒定律。","public":true,"reviews":[{"content":"老师讲的很好，化学式不再是枯燥的东西了，而是一个个神奇的符号。","created_at":"2016-08-18 12:01","rating":5,"user":{"avatar":"","id":2,"name":"张小文"}},{"content":"化学与我们的生活息息相关，了解身边的化学知识，有助于更好的了解我们身边物质的组成及变化规律。","created_at":"2016-06-11 09:30","rating":4,"user":{"avatar":"","id":3,"name":"李中天"}}],"show_index":true,"speed_class":true,"student_count":82724,"subject":"化学","super_teacher":false,"videos":[{"duration":120,"grade":"初三","id":10,"knowledge_point":"化学方程式","name":"化学方程式","poster":"","subject":"化学","url":"","view_count":44546},{"duration":1445,"grade":"初三","id":11,"knowledge_point":"化学方程式","name":"如何正确书写化学方程式","poster":"","subject":"化学","url":"","view_count":47234}]},{"background":"","cover":"","desc":"碳元素是一种常见元素，但又奇特的拥有多种存在形态。","grade":"初三","hot":true,"id":6,"name":"碳及同素异形体","org":true,"outline":"碳是一种非金属元素，位于元素周期表的第二周期IVA族。拉丁语为Carbonium，意为“煤，木炭”。碳是一种很常见的元素，它以多种形式广泛存在于大气和地壳和生物之中。","public":true,"reviews":[{"content":"身边的各种物质都是碳构成的，而且通过老师的讲解，发现它们的形态是如此奇特，大家一起来听听吧。","created_at":"2016-07-08 12:11","rating":5,"user":{"avatar":"","id":1,"name":"李佳佳"}}],"show_index":true,"speed_class":true,"student_count":453535,"subject":"化学","super_teacher":false,"videos":[{"duration":183,"grade":"初三","id":12,"knowledge_point":"碳及同素异形体","name":"碳","poster":"","subject":"化学","url":"","view_count":12580},{"duration":941,"grade":"初三","id":13,"knowledge_point":"碳及同素异形体","name":"金刚石、石墨和炭","poster":"","subject":"化学","url":"","view_count":83734}]},{"background":"","cover":"","desc":"水的生活不可缺少的部分，可你真的了解水吗？","grade":"初三","hot":false,"id":7,"name":"水","org":true,"outline":"水（化学式：H₂O）是由氢、氧两种元素组成的无机物，无毒。在常温常压下为无色无味的透明液体，被称为人类生命的源泉。水是地球上最常见的物质之一，是包括无机化合、人类在内所有生命生存的重要资源，也是生物体最重要的组成部分。水在生命演化中起到了重要作用。它是一种狭义不可再生，广义可再生资源。","public":true,"reviews":[{"content":"水真的是生命的基础。","created_at":"2016-08-18 12:01","rating":5,"user":{"avatar":"","id":3,"name":"张文"}},{"content":"水在生活中太重要了，老师的例子讲解很好，让人很容易明白。","created_at":"2016-06-11 09:30","rating":4,"user":{"avatar":"","id":2,"name":"李天"}}],"show_index":false,"speed_class":true,"student_count":636463,"subject":"化学","super_teacher":false,"videos":[{"duration":151,"grade":"初三","id":14,"knowledge_point":"水","name":"我们的水资源","poster":"","subject":"化学","url":"","view_count":32782},{"duration":982,"grade":"初三","id":15,"knowledge_point":"水","name":"水的组成","poster":"","subject":"化学","url":"","view_count":83734}]},{"background":"","cover":"","desc":"化学的应用无处不在，化学的趣味也无处不在！","grade":"初三","hot":true,"id":8,"name":"有趣的化学","org":true,"outline":"利用化学知识解密神奇的魔术，侦破悬疑的案件，听了是不是觉得很神奇呢？","public":true,"reviews":[{"content":"原来魔术都是利用了化学知识，有些地方还都是平常生活中常见的，真的是太神奇了。","created_at":"2016-02-26 11:11","rating":5,"user":{"avatar":"","id":3,"name":"张小智"}}],"show_index":true,"speed_class":false,"student_count":476372,"subject":"化学","super_teacher":true,"videos":[{"duration":458,"grade":"初三","id":16,"knowledge_point":"有趣的化学","name":"揭秘刘谦魔术","poster":"","subject":"化学","url":"","view_count":38462},{"duration":314,"grade":"初三","id":17,"knowledge_point":"有趣的化学","name":"侦探历史迷案","poster":"","subject":"化学","url":"","view_count":56473}]}],"videos":[{"duration":1038,"grade":"初三","id":18,"knowledge_point":"水","name":"水的净化","poster":"","subject":"化学","url":"resource/video/1.mp4","view_count":4834384},{"duration":85,"grade":"初三","id":19,"knowledge_point":"化学实验","name":"洗涤玻璃仪器","poster":"","subject":"化学","url":"resource/video/1.mp4","view_count":4834384},{"duration":44,"grade":"初三","id":20,"knowledge_point":"方法技巧","name":"科学探究的方法","poster":"","subject":"化学","url":"resource/video/1.mp4","view_count":334564},{"duration":72,"grade":"初三","id":21,"knowledge_point":"物质的组成和构成","name":"元素的概念","poster":"","subject":"化学","url":"resource/video/1.mp4","view_count":334564},{"duration":27,"grade":"初三","id":22,"knowledge_point":"化学实验","name":"二氧化碳使蜡烛火焰熄灭","poster":"","subject":"化学","url":"resource/video/1.mp4","view_count":334564}]}
+{
+  "banners": [
+    {
+      "id": 1,
+      "image": "",
+      "index": 1,
+      "org": true,
+      "public": true,
+      "url": "#/home/courses/3"
+    },
+    {
+      "id": 2,
+      "image": "",
+      "index": 2,
+      "org": true,
+      "public": true,
+      "url": "#/home/course-list?public=true&speed_class=true"
+    },
+    {
+      "id": 3,
+      "image": "",
+      "index": 3,
+      "org": true,
+      "public": true,
+      "url": "#/home/play/3"
+    }
+  ],
+  "courses": [
+    {
+      "background": "",
+      "cover": "",
+      "desc": "化学与我们的生活息息相关，了解身边的化学知识，更好的了解我们身边物质的组成及变化规律。",
+      "grade": "初三",
+      "hot": true,
+      "id": 1,
+      "name": "我们身边的化学",
+      "org": true,
+      "outline": "学习身边的化学，探究人体呼入的空气和呼出的气体，更好的了解化学，了解我们的生活。提升我们的学习化学的兴趣，点燃化学的学习激情。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "老师讲的很好。",
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 1,
+            "name": "张小文"
+          }
+        },
+        {
+          "content": "老师的讲解很有趣，我很快就明白了，主要是在情境中明白了化学的重要性。",
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "user": {
+            "avatar": "",
+            "id": 2,
+            "name": "李中天"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 253635,
+      "subject": "化学",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 150,
+          "grade": "初三",
+          "id": 1,
+          "knowledge_point": "我们身边的化学",
+          "name": "身边的化学",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 3673288
+        },
+        {
+          "duration": 386,
+          "grade": "初三",
+          "id": 2,
+          "knowledge_point": "我们身边的化学",
+          "name": "探究人体吸入的空气和呼出的气体",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 983673
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "我们的生活离不开空气，更离不开氧气，一起来学习吧！",
+      "grade": "初三",
+      "hot": true,
+      "id": 2,
+      "name": "空气与氧气",
+      "org": true,
+      "outline": "空气的成分是复杂的，氧气更是人们生存必不可少的气体。探索空气的成份，研究氧气的制法，是化学学习非常重要的一个部分。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "氧气的制造过程其实也不难，只要了解各种气体的产生条件，就很容易掌握了。",
+          "created_at": "2015-08-18 12:31",
+          "rating": 4,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "李佳佳"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 253635,
+      "subject": "化学",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 167,
+          "grade": "初三",
+          "id": 3,
+          "knowledge_point": "空气和氧气",
+          "name": "空气的成分",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 22732
+        },
+        {
+          "duration": 158,
+          "grade": "初三",
+          "id": 4,
+          "knowledge_point": "空气和氧气",
+          "name": "分解过氧化氢制取氧气",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 34634
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "物质是什么构成的？物质构成的奥秘是什么？物质组成的表达式是怎么样的？一起来看看吧！",
+      "grade": "初三",
+      "hot": true,
+      "id": 3,
+      "name": "物质的构成与物质的组成表达式",
+      "org": true,
+      "outline": "研究物质构成的奥秘和物质是什么构成的，能让我们更好的了解微观世界。学会用物质组成的表达式来表示一种物质，能让我们更加便捷的学习化学。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "微观物质真的很神奇，老师的讲解很快把我带到了一个神奇的世界，再多学几门课，很快便能掌握物质的构成。",
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 1,
+            "name": "张小文"
+          }
+        },
+        {
+          "content": "物质的构成与我们的生活息息相关，了解身边的物质构成知识，更好的了解我们身边物质的组成及变化规律。",
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "李中天"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 2467278,
+      "subject": "化学",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 58,
+          "grade": "初三",
+          "id": 5,
+          "knowledge_point": "物质的构成与物质的组成表达式",
+          "name": "物质构成的奥秘",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 34343
+        },
+        {
+          "duration": 132,
+          "grade": "初三",
+          "id": 6,
+          "knowledge_point": "物质的构成与物质的组成表达式",
+          "name": "物质由微观粒子构成",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 728826
+        },
+        {
+          "duration": 163,
+          "grade": "初三",
+          "id": 7,
+          "knowledge_point": "物质的构成与物质的组成表达式",
+          "name": "物质组成的表达式",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 47234
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "质量守恒定律也称物质不灭定律。它是自然界普遍存在的基本定律之一。",
+      "grade": "初三",
+      "hot": true,
+      "id": 4,
+      "name": "质量守恒定律",
+      "org": true,
+      "outline": "在化学反应中，参加反应的各物质的质量总和等于反应后生成各物质的质量总和。这个规律就叫做质量守恒定律(Law of conservation of mass)。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "老师主要用了例子来讲解质量守恒，这样就容易明白多了，谢谢老师。",
+          "created_at": "2016-08-08 08:08",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 2,
+            "name": "马六"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 65474,
+      "subject": "化学",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 102,
+          "grade": "初三",
+          "id": 5,
+          "knowledge_point": "质量守恒定律",
+          "name": "质量守恒定律1",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 37386
+        },
+        {
+          "duration": 81,
+          "grade": "初三",
+          "id": 9,
+          "knowledge_point": "质量守恒定律",
+          "name": "质量守恒定律2",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 47234
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "用化学式（有机化学中有机物一般用结构简式）来表示物质化学反应的式子，叫做化学方程式。",
+      "grade": "初三",
+      "hot": true,
+      "id": 5,
+      "name": "化学方程式",
+      "org": true,
+      "outline": "化学方程式，也称为化学反应方程式，是用化学式表示化学反应的式子。化学方程式反映的是客观事实。因此书写化学方程式要遵守两个原则：一是必须以客观事实为基础；二是要遵守质量守恒定律。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "老师讲的很好，化学式不再是枯燥的东西了，而是一个个神奇的符号。",
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 2,
+            "name": "张小文"
+          }
+        },
+        {
+          "content": "化学与我们的生活息息相关，了解身边的化学知识，有助于更好的了解我们身边物质的组成及变化规律。",
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "李中天"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 82724,
+      "subject": "化学",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 120,
+          "grade": "初三",
+          "id": 10,
+          "knowledge_point": "化学方程式",
+          "name": "化学方程式",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 44546
+        },
+        {
+          "duration": 1445,
+          "grade": "初三",
+          "id": 11,
+          "knowledge_point": "化学方程式",
+          "name": "如何正确书写化学方程式",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 47234
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "碳元素是一种常见元素，但又奇特的拥有多种存在形态。",
+      "grade": "初三",
+      "hot": true,
+      "id": 6,
+      "name": "碳及同素异形体",
+      "org": true,
+      "outline": "碳是一种非金属元素，位于元素周期表的第二周期IVA族。拉丁语为Carbonium，意为“煤，木炭”。碳是一种很常见的元素，它以多种形式广泛存在于大气和地壳和生物之中。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "身边的各种物质都是碳构成的，而且通过老师的讲解，发现它们的形态是如此奇特，大家一起来听听吧。",
+          "created_at": "2016-07-08 12:11",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 1,
+            "name": "李佳佳"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 453535,
+      "subject": "化学",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 183,
+          "grade": "初三",
+          "id": 12,
+          "knowledge_point": "碳及同素异形体",
+          "name": "碳",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 12580
+        },
+        {
+          "duration": 941,
+          "grade": "初三",
+          "id": 13,
+          "knowledge_point": "碳及同素异形体",
+          "name": "金刚石、石墨和炭",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 83734
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "水的生活不可缺少的部分，可你真的了解水吗？",
+      "grade": "初三",
+      "hot": false,
+      "id": 7,
+      "name": "水",
+      "org": true,
+      "outline": "水（化学式：H₂O）是由氢、氧两种元素组成的无机物，无毒。在常温常压下为无色无味的透明液体，被称为人类生命的源泉。水是地球上最常见的物质之一，是包括无机化合、人类在内所有生命生存的重要资源，也是生物体最重要的组成部分。水在生命演化中起到了重要作用。它是一种狭义不可再生，广义可再生资源。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "水真的是生命的基础。",
+          "created_at": "2016-08-18 12:01",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张文"
+          }
+        },
+        {
+          "content": "水在生活中太重要了，老师的例子讲解很好，让人很容易明白。",
+          "created_at": "2016-06-11 09:30",
+          "rating": 4,
+          "user": {
+            "avatar": "",
+            "id": 2,
+            "name": "李天"
+          }
+        }
+      ],
+      "show_index": false,
+      "speed_class": true,
+      "student_count": 636463,
+      "subject": "化学",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 151,
+          "grade": "初三",
+          "id": 14,
+          "knowledge_point": "水",
+          "name": "我们的水资源",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 32782
+        },
+        {
+          "duration": 982,
+          "grade": "初三",
+          "id": 15,
+          "knowledge_point": "水",
+          "name": "水的组成",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 83734
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "化学的应用无处不在，化学的趣味也无处不在！",
+      "grade": "初三",
+      "hot": true,
+      "id": 8,
+      "name": "有趣的化学",
+      "org": true,
+      "outline": "利用化学知识解密神奇的魔术，侦破悬疑的案件，听了是不是觉得很神奇呢？",
+      "public": true,
+      "reviews": [
+        {
+          "content": "原来魔术都是利用了化学知识，有些地方还都是平常生活中常见的，真的是太神奇了。",
+          "created_at": "2016-02-26 11:11",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 476372,
+      "subject": "化学",
+      "super_teacher": true,
+      "videos": [
+        {
+          "duration": 458,
+          "grade": "初三",
+          "id": 16,
+          "knowledge_point": "有趣的化学",
+          "name": "揭秘刘谦魔术",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 38462
+        },
+        {
+          "duration": 314,
+          "grade": "初三",
+          "id": 17,
+          "knowledge_point": "有趣的化学",
+          "name": "侦探历史迷案",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 56473
+        }
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "duration": 1038,
+      "grade": "初三",
+      "id": 18,
+      "knowledge_point": "水",
+      "name": "水的净化",
+      "poster": "",
+      "subject": "化学",
+      "url": "resource/video/1.mp4",
+      "view_count": 4834384
+    },
+    {
+      "duration": 85,
+      "grade": "初三",
+      "id": 19,
+      "knowledge_point": "化学实验",
+      "name": "洗涤玻璃仪器",
+      "poster": "",
+      "subject": "化学",
+      "url": "resource/video/1.mp4",
+      "view_count": 4834384
+    },
+    {
+      "duration": 44,
+      "grade": "初三",
+      "id": 20,
+      "knowledge_point": "方法技巧",
+      "name": "科学探究的方法",
+      "poster": "",
+      "subject": "化学",
+      "url": "resource/video/1.mp4",
+      "view_count": 334564
+    },
+    {
+      "duration": 72,
+      "grade": "初三",
+      "id": 21,
+      "knowledge_point": "物质的组成和构成",
+      "name": "元素的概念",
+      "poster": "",
+      "subject": "化学",
+      "url": "resource/video/1.mp4",
+      "view_count": 334564
+    },
+    {
+      "duration": 27,
+      "grade": "初三",
+      "id": 22,
+      "knowledge_point": "化学实验",
+      "name": "二氧化碳使蜡烛火焰熄灭",
+      "poster": "",
+      "subject": "化学",
+      "url": "resource/video/1.mp4",
+      "view_count": 334564
+    }
+  ]
+}
