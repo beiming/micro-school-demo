@@ -40,5 +40,7 @@ if [ "$TEST_ENV" != true ]; then
     fi
 
     tar -czvf $target_file ./www/index.html ./www/css ./www/data ./www/icon ./www/js ./www/partials
+    echo '----------------------------'
+    echo '=>' $target_file
 fi
 echo 'Done'
