@@ -31,7 +31,7 @@
       "cover": "",
       "desc": "化学与我们的生活息息相关，了解身边的化学知识，更好的了解我们身边物质的组成及变化规律。",
       "grade": "初三",
-      "hot": true,
+      "hot": false,
       "id": 1,
       "name": "我们身边的化学",
       "org": true,
@@ -61,7 +61,7 @@
       ],
       "show_index": true,
       "speed_class": true,
-      "student_count": 253635,
+      "student_count": 13635,
       "subject": "化学",
       "super_teacher": false,
       "videos": [
@@ -74,7 +74,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 3673288
+          "view_count": 7388
         },
         {
           "duration": 386,
@@ -85,7 +85,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 983673
+          "view_count": 9836
         }
       ]
     },
@@ -94,7 +94,7 @@
       "cover": "",
       "desc": "我们的生活离不开空气，更离不开氧气，一起来学习吧！",
       "grade": "初三",
-      "hot": true,
+      "hot": false,
       "id": 2,
       "name": "空气与氧气",
       "org": true,
@@ -114,7 +114,7 @@
       ],
       "show_index": true,
       "speed_class": true,
-      "student_count": 253635,
+      "student_count": 3635,
       "subject": "化学",
       "super_teacher": false,
       "videos": [
@@ -127,7 +127,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 22732
+          "view_count": 2732
         },
         {
           "duration": 158,
@@ -138,7 +138,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 34634
+          "view_count": 4634
         }
       ]
     },
@@ -147,12 +147,12 @@
       "cover": "",
       "desc": "物质是什么构成的？物质构成的奥秘是什么？物质组成的表达式是怎么样的？一起来看看吧！",
       "grade": "初三",
-      "hot": true,
+      "hot": false,
       "id": 3,
       "name": "物质的构成与物质的组成表达式",
       "org": true,
       "outline": "研究物质构成的奥秘和物质是什么构成的，能让我们更好的了解微观世界。学会用物质组成的表达式来表示一种物质，能让我们更加便捷的学习化学。",
-      "public": true,
+      "public": false,
       "reviews": [
         {
           "content": "微观物质真的很神奇，老师的讲解很快把我带到了一个神奇的世界，再多学几门课，很快便能掌握物质的构成。",
@@ -177,7 +177,7 @@
       ],
       "show_index": true,
       "speed_class": true,
-      "student_count": 2467278,
+      "student_count": 7278,
       "subject": "化学",
       "super_teacher": false,
       "videos": [
@@ -190,7 +190,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 34343
+          "view_count": 3433
         },
         {
           "duration": 132,
@@ -201,7 +201,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 728826
+          "view_count": 7826
         },
         {
           "duration": 163,
@@ -212,7 +212,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 47234
+          "view_count": 7234
         }
       ]
     },
@@ -221,7 +221,7 @@
       "cover": "",
       "desc": "质量守恒定律也称物质不灭定律。它是自然界普遍存在的基本定律之一。",
       "grade": "初三",
-      "hot": true,
+      "hot": false,
       "id": 4,
       "name": "质量守恒定律",
       "org": true,
@@ -241,7 +241,7 @@
       ],
       "show_index": true,
       "speed_class": true,
-      "student_count": 65474,
+      "student_count": 6544,
       "subject": "化学",
       "super_teacher": false,
       "videos": [
@@ -254,7 +254,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 37386
+          "view_count": 7386
         },
         {
           "duration": 81,
@@ -274,7 +274,7 @@
       "cover": "",
       "desc": "用化学式（有机化学中有机物一般用结构简式）来表示物质化学反应的式子，叫做化学方程式。",
       "grade": "初三",
-      "hot": true,
+      "hot": false,
       "id": 5,
       "name": "化学方程式",
       "org": true,
@@ -304,7 +304,7 @@
       ],
       "show_index": true,
       "speed_class": true,
-      "student_count": 82724,
+      "student_count": 8274,
       "subject": "化学",
       "super_teacher": false,
       "videos": [
@@ -317,7 +317,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 44546
+          "view_count": 4446
         },
         {
           "duration": 1445,
@@ -328,7 +328,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 47234
+          "view_count": 4234
         }
       ]
     },
@@ -337,7 +337,7 @@
       "cover": "",
       "desc": "碳元素是一种常见元素，但又奇特的拥有多种存在形态。",
       "grade": "初三",
-      "hot": true,
+      "hot": false,
       "id": 6,
       "name": "碳及同素异形体",
       "org": true,
@@ -357,7 +357,7 @@
       ],
       "show_index": true,
       "speed_class": true,
-      "student_count": 453535,
+      "student_count": 3535,
       "subject": "化学",
       "super_teacher": false,
       "videos": [
@@ -370,7 +370,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 12580
+          "view_count": 2580
         },
         {
           "duration": 941,
@@ -381,7 +381,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 83734
+          "view_count": 8734
         }
       ]
     },
@@ -420,7 +420,7 @@
       ],
       "show_index": false,
       "speed_class": true,
-      "student_count": 636463,
+      "student_count": 6463,
       "subject": "化学",
       "super_teacher": false,
       "videos": [
@@ -433,7 +433,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 32782
+          "view_count": 2782
         },
         {
           "duration": 982,
@@ -444,7 +444,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 83734
+          "view_count": 8734
         }
       ]
     },
@@ -453,10 +453,10 @@
       "cover": "",
       "desc": "化学的应用无处不在，化学的趣味也无处不在！",
       "grade": "初三",
-      "hot": true,
+      "hot": false,
       "id": 8,
       "name": "有趣的化学",
-      "org": true,
+      "org": false,
       "outline": "利用化学知识解密神奇的魔术，侦破悬疑的案件，听了是不是觉得很神奇呢？",
       "public": true,
       "reviews": [
@@ -473,7 +473,7 @@
       ],
       "show_index": true,
       "speed_class": false,
-      "student_count": 476372,
+      "student_count": 4772,
       "subject": "化学",
       "super_teacher": true,
       "videos": [
@@ -486,7 +486,7 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 38462
+          "view_count": 3862
         },
         {
           "duration": 314,
@@ -497,7 +497,568 @@
           "poster": "",
           "subject": "化学",
           "url": "",
-          "view_count": 56473
+          "view_count": 5473
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "话说科学技术是第一生产力，那我们身边有哪些科学知识呢，一起来看看！",
+      "grade": "初三",
+      "hot": false,
+      "id": 9,
+      "name": "身边的科学",
+      "org": false,
+      "outline": "科学知识无处不在，超级老师带你走进我们身边的科学，再来一起看看美味的化学！",
+      "public": true,
+      "reviews": [
+        {
+          "content": "老师讲的很棒，学到不少东西！",
+          "created_at": "2016-02-26 11:11",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 4772,
+      "subject": "化学",
+      "super_teacher": true,
+      "videos": [
+        {
+          "duration": 352,
+          "grade": "初三",
+          "id": 23,
+          "knowledge_point": "生活中的科学",
+          "name": "生活中的科学知识",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 3862
+        },
+        {
+          "duration": 305,
+          "grade": "初三",
+          "id": 24,
+          "knowledge_point": "生活中的科学",
+          "name": "美味的化学",
+          "poster": "",
+          "subject": "化学",
+          "url": "",
+          "view_count": 5473
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "超级老师让你听历史老师的课，还能提升语文能力，不信就来看看吧！",
+      "grade": "初三",
+      "hot": false,
+      "id": 10,
+      "name": "通过历史学语文",
+      "org": false,
+      "outline": "看金字塔的今世前生，听我的败家史，不一样的知识，给你带来不一样的感觉，让你从此爱上历史，更爱上语文。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "呀，金字塔原理还有这样的故事，太神奇了！",
+          "created_at": "2016-02-26 11:11",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 4772,
+      "subject": "语文",
+      "super_teacher": true,
+      "videos": [
+        {
+          "duration": 298,
+          "grade": "初三",
+          "id": 25,
+          "knowledge_point": "通过历史学语文",
+          "name": "金字塔的今世前生",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 3862
+        },
+        {
+          "duration": 445,
+          "grade": "初三",
+          "id": 26,
+          "knowledge_point": "通过历史学语文",
+          "name": "我的败家史",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 5473
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "生活中不缺少大师，而是缺少发现大师的伯乐，你是伯乐吗？",
+      "grade": "初三",
+      "hot": false,
+      "id": 11,
+      "name": "大师教你学语文",
+      "org": false,
+      "outline": "汉语是世界上最复杂也最奇妙的语言，学习语文的博大精深，掌握写作的技巧，总是有太多需要我们学习的。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "老师讲的太棒了，好喜欢！",
+          "created_at": "2016-03-26 23:01",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 5645,
+      "subject": "语文",
+      "super_teacher": true,
+      "videos": [
+        {
+          "duration": 244,
+          "grade": "初三",
+          "id": 27,
+          "knowledge_point": "大师教你学语文",
+          "name": "作文速提分",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 3862
+        },
+        {
+          "duration": 353,
+          "grade": "初三",
+          "id": 28,
+          "knowledge_point": "大师教你学语文",
+          "name": "不一样的鲁迅",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 2738
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "各个学科之间往往都有一定的联系，你来看看这到底是什么学科？",
+      "grade": "初三",
+      "hot": true,
+      "id": 12,
+      "name": "到底是什么学科",
+      "org": false,
+      "outline": "政治、物理、还是语文？运动和静止，一课让你长见识。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "太有趣了，赞一个！",
+          "created_at": "2015-11-26 19:20",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 2,
+            "name": "张小文"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 5937,
+      "subject": "语文",
+      "super_teacher": true,
+      "videos": [
+        {
+          "duration": 330,
+          "grade": "初三",
+          "id": 29,
+          "knowledge_point": "到底是什么学科",
+          "name": "运动和静止",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 5364
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "中国的古文化是丰富多彩的。",
+      "grade": "初三",
+      "hot": false,
+      "id": 13,
+      "name": "古文化",
+      "org": false,
+      "outline": "一起来看看古代的科举制度和鱼在中国文化中的含义。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "谢谢老师，学到很多新的知识！",
+          "created_at": "2016-01-26 09:20",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 2,
+            "name": "张小文"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 7364,
+      "subject": "语文",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 189,
+          "grade": "初三",
+          "id": 30,
+          "knowledge_point": "古文化",
+          "name": "科举制度",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 3454
+        },
+        {
+          "duration": 148,
+          "grade": "初三",
+          "id": 31,
+          "knowledge_point": "古文化",
+          "name": "鱼在中国文化中的含义",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 7368
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "超级老师带你一起涨知识。",
+      "grade": "初三",
+      "hot": true,
+      "id": 14,
+      "name": "涨知识",
+      "org": false,
+      "outline": "三山五岳你知道吗？鱼腹藏书又是什么鬼？",
+      "public": true,
+      "reviews": [
+        {
+          "content": "终于了解三山五岳了，涨知识了！鱼腹藏书第一次听说，很好！",
+          "created_at": "2016-08-26 09:20",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 2,
+            "name": "张小文"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 8274,
+      "subject": "语文",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 184,
+          "grade": "初三",
+          "id": 32,
+          "knowledge_point": "涨知识",
+          "name": "三山五岳",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 4563
+        },
+        {
+          "duration": 172,
+          "grade": "初三",
+          "id": 33,
+          "knowledge_point": "涨知识",
+          "name": "鱼腹藏书",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 6373
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "圣人总能带给我们不一样的东西！",
+      "grade": "初三",
+      "hot": false,
+      "id": 15,
+      "name": "孔子庄子",
+      "org": false,
+      "outline": "不耻下问问谁？什么会让你望洋兴叹？",
+      "public": true,
+      "reviews": [
+        {
+          "content": "今天了解了不耻下问和望洋兴叹，很高兴！",
+          "created_at": "2016-05-17 19:40",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": true,
+      "student_count": 7363,
+      "subject": "语文",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 159,
+          "grade": "初三",
+          "id": 34,
+          "knowledge_point": "孔子庄子",
+          "name": "不耻下问问谁",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 7362
+        },
+        {
+          "duration": 140,
+          "grade": "初三",
+          "id": 35,
+          "knowledge_point": "涨知识",
+          "name": "望洋兴叹",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 9372
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "醉翁之意不在酒，请问在哪儿？",
+      "grade": "初三",
+      "hot": true,
+      "id": 16,
+      "name": "醉翁之意不在酒",
+      "org": false,
+      "outline": "原是作者自说在亭子里真意不在喝酒，而在于欣赏山里的风景。后用来表示本意不在此而在别的方面，也体现了作者的宽和仁爱之心。",
+      "public": true,
+      "reviews": [
+        {
+          "content": "听的最有趣的醉翁之意不在酒，太开心了!",
+          "created_at": "2016-08-26 09:20",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "李佳佳"
+          }
+        }
+      ],
+      "show_index": false,
+      "speed_class": true,
+      "student_count": 7283,
+      "subject": "语文",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 143,
+          "grade": "初三",
+          "id": 36,
+          "knowledge_point": "醉翁之意不在酒",
+          "name": "醉翁之意不在酒",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 4563
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "《沁园春·雪》是毛泽东于1936年（丙子年）2月在山西省石楼县留村所创作的一首词。",
+      "grade": "初三",
+      "hot": true,
+      "id": 17,
+      "name": "沁园春 雪",
+      "org": true,
+      "outline": "诗词分上下两阕，上阕描写乍暖还寒的北国雪景，展现伟大祖国的壮丽山河；下阕由毛泽东主席对祖国山河的壮丽而感叹，并引出秦皇汉武等英雄人物，纵论历代英雄人物。",
+      "public": false,
+      "reviews": [
+        {
+          "content": "毛爷爷的大作，再一次学习！点十个赞！",
+          "created_at": "2016-05-01 14:32",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 7283,
+      "subject": "语文",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 304,
+          "grade": "初三",
+          "id": 37,
+          "knowledge_point": "沁园春 雪",
+          "name": "诗词学习法",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 6353
+        },
+        {
+          "duration": 465,
+          "grade": "初三",
+          "id": 38,
+          "knowledge_point": "沁园春 雪",
+          "name": "沁园春 雪",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 9384
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "瓦·阿·苏霍姆林斯基（俄文：В·А·Сухомлнский，1918-1970），前苏联著名教育实践家和教育理论家。",
+      "grade": "初三",
+      "hot": true,
+      "id": 18,
+      "name": "致女儿的信",
+      "org": true,
+      "outline": "苏霍姆林斯基，以信的形式给女儿讲了一个极其动人的故事，给她作为一个父亲，作为一个体验过爱情的过来人，对爱情的理解。",
+      "public": false,
+      "reviews": [
+        {
+          "content": "写的真好，这种沟通值得每一个家庭拥有！",
+          "created_at": "2016-05-01 14:32",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 9384,
+      "subject": "语文",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 123,
+          "grade": "初三",
+          "id": 39,
+          "knowledge_point": "致女儿的信",
+          "name": "苏霍姆林斯基的教育思想",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 4353
+        },
+        {
+          "duration": 126,
+          "grade": "初三",
+          "id": 40,
+          "knowledge_point": "致女儿的信",
+          "name": "致女儿的信",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 9384
+        }
+      ]
+    },
+    {
+      "background": "",
+      "cover": "",
+      "desc": "阅读和写作是语文学习至关重要的部分。",
+      "grade": "初三",
+      "hot": true,
+      "id": 19,
+      "name": "阅读与写作手法",
+      "org": true,
+      "outline": "通过《哦，妈妈》一篇阅读题，训练自己的阅读能力，也唤醒大家对母爱的的理解与认识。学习化静为动的写作手法，提升你的写作能力。",
+      "public": false,
+      "reviews": [
+        {
+          "content": "母爱是伟大的，要好好的爱妈妈！",
+          "created_at": "2016-05-01 14:32",
+          "rating": 5,
+          "user": {
+            "avatar": "",
+            "id": 3,
+            "name": "张小智"
+          }
+        }
+      ],
+      "show_index": true,
+      "speed_class": false,
+      "student_count": 6363,
+      "subject": "语文",
+      "super_teacher": false,
+      "videos": [
+        {
+          "duration": 405,
+          "grade": "初三",
+          "id": 41,
+          "knowledge_point": "阅读与写作手法",
+          "name": "哦，妈妈",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 4353
+        },
+        {
+          "duration": 213,
+          "grade": "初三",
+          "id": 42,
+          "knowledge_point": "阅读与写作手法",
+          "name": "化静为动",
+          "poster": "",
+          "subject": "语文",
+          "url": "",
+          "view_count": 7363
         }
       ]
     }
@@ -511,8 +1072,9 @@
       "name": "水的净化",
       "poster": "",
       "subject": "化学",
-      "url": "resource/video/1.mp4",
-      "view_count": 4834384
+      "url": "resource/video/18.mp4",
+      "view_count": 4384,
+      "show_index": true
     },
     {
       "duration": 85,
@@ -522,8 +1084,9 @@
       "name": "洗涤玻璃仪器",
       "poster": "",
       "subject": "化学",
-      "url": "resource/video/1.mp4",
-      "view_count": 4834384
+      "url": "resource/video/19.mp4",
+      "view_count": 4834,
+      "show_index": true
     },
     {
       "duration": 44,
@@ -533,8 +1096,9 @@
       "name": "科学探究的方法",
       "poster": "",
       "subject": "化学",
-      "url": "resource/video/1.mp4",
-      "view_count": 334564
+      "url": "resource/video/20.mp4",
+      "view_count": 8373,
+      "show_index": false
     },
     {
       "duration": 72,
@@ -544,8 +1108,9 @@
       "name": "元素的概念",
       "poster": "",
       "subject": "化学",
-      "url": "resource/video/1.mp4",
-      "view_count": 334564
+      "url": "resource/video/21.mp4",
+      "view_count": 3364,
+      "show_index": true
     },
     {
       "duration": 27,
@@ -555,8 +1120,9 @@
       "name": "二氧化碳使蜡烛火焰熄灭",
       "poster": "",
       "subject": "化学",
-      "url": "resource/video/1.mp4",
-      "view_count": 334564
+      "url": "resource/video/22.mp4",
+      "view_count": 4564,
+      "show_index": true
     }
   ]
 }
