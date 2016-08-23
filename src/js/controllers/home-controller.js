@@ -7,9 +7,11 @@ export default ['$rootScope', '$scope', '$state', '$location',
         $scope.viewName = 'HomeController';
         $scope.inited = false;
         $rootScope.pageTitle = '微课';
+        $rootScope.curentPageName = 'home.index.public';
 
         $scope.$on('$viewContentLoaded', () => {
             let currentStateName = $state.current.name;
+            $rootScope.curentPageName = currentStateName;
             if (currentStateName === 'home.course-list') {
                 if ($state.params.public === 'true') {
                     $rootScope.pageTitle = '专题课程';
