@@ -18,7 +18,10 @@
     "test",
     "tests"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "normalize-css": "^4.2.0",
+    "fetch": "^1.0.0"
+  },
   "devDependencies": {
     "angular": "angularjs#^1.5.8",
     "angular-ui-router": "^0.3.1",
